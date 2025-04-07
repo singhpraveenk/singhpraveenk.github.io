@@ -10,7 +10,7 @@ author_profile: true
 
 2024
 <ul>
-<li>Srivastava, P., Namdev, P., & <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In Emerging Issues in Environment, <i>Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.</li>
+<li>Srivastava, P., Namdev, P., & <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In <i>Emerging Issues in Environment, Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.</li>
 </ul>
 
 <h3>Refereed Journal Articles</h3>
