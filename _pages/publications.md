@@ -36,7 +36,6 @@ author_profile: true
 * <b>Singh, P. K.</b>, Kumar, A., & Banerjee, K. (2018). Methane Emission and Its Variability in Different Land-uses of Semi-arid Region, Rajasthan. <i>Journal of Climate Change</i>, 4(2), 67–75.​ DOI: <a href="https://content.iospress.com/articles/journal-of-climate-change/jcc180014" target="_blank">10.3233/JCC-1800014</a>.
 
 <br>
-</ul>
 
 
 ​
