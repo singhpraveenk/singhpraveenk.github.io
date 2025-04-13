@@ -1,7 +1,7 @@
 ---
 title: "Aerosols"
 collection: research
-category: research page aerosol
+category: research_page 
 excerpt: work on black carbon
 permalink: /research/aerosol
 ---
