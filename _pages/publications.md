@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+<br>
 
 <h3>Books, Reports, & Chapters</h3>
 
