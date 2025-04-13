@@ -13,7 +13,7 @@ I hold a Ph.D. from the Centre of Excellence in Disaster Mitigation & Managemen
 
 I work at WRI India, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.
 
-​Education:
+​Education
 <ul>
   <li>Ph.D. (2025), Indian Institute of Technology Roorkee, India.</li>​
   <li>M.Sc. (2016), Central University of Rajasthan, India.</li>
