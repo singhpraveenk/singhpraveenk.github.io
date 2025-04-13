@@ -5,8 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
-
-<img src="/images/Forest_Fire_Himalaya.jpg" alt="Forest fire in Himalaya" width="700" height="400" align="left" style="margin-left: 0px; margin-right: 20px; margin-top: 30px; margin-bottom: 10px;">
+<b>Aerosol</b>
+<img src="/images/Forest_Fire_Himalaya.jpg" alt="Forest fire in Himalaya" width="400" height="250" align="right" style="margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px;">
 
 
 
