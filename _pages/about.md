@@ -15,7 +15,7 @@ I work at WRI India, where I am closely engaged with urban local bodies (ULB) in
 
 ​Education:
 <ul>
-<li>Ph.D. (2025), Indian Institute of Technology Roorkee, India</li>​
-<li>M.Sc. (2016), Central University of Rajasthan, India</li>
-<li>B.Tech. (2011), Gautam Buddh Technical University, India</li>
+  <li>Ph.D. (2025), Indian Institute of Technology Roorkee, India</li>​
+  <li>M.Sc. (2016), Central University of Rajasthan, India</li>
+  <li>B.Tech. (2011), Gautam Buddh Technical University, India</li>
 </ul>
