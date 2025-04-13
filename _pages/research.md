@@ -22,7 +22,7 @@ author_profile: true
 
 <p style="text-align: justify;">Beyond climate, aerosols affect air quality and human health. Fine particles, when inhaled, can penetrate deep into the lungs, leading to respiratory issues and cardiovascular diseases. They also influence cloud formation by acting as cloud condensation nuclei, altering precipitation patterns and weather systems.</p>
 
-<a /aerosol/>Read more ...</a>
+<a href="https://singhpraveenk.github.io/research/aerosol)" target="_blank">Read more ...</a>
 
 
 
