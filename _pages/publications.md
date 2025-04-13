@@ -8,19 +8,15 @@ author_profile: true
 
 <h3>Books, Reports, & Chapters</h3>
 
-<p style="text-align: justify;">
 2024
 * Srivastava, P., Namdev, P., & <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In <i>Emerging Issues in Environment, Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.
-</p>
 
 <br>
 
 <h3>Refereed Journal Articles</h3>
 
-<p style="text-align: justify;">
 2025
- * Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.
-</p>
+* Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.
 
 2023
 * Sherpa, T. C., Matthews, T., Perry, L. B., Thapa, A., <b>Singh, P. K.</b>, Khadka, A., Koch, I., Pelto, M., Panday, P., Aryal, D., Shrestha, D., Kang, S., & Mayewski, P. A. (2023). Insights from the first winter weather observations near Mount Everest’s summit. <i>Weather</i>. DOI: <a href="https://doi.org/10.1002/wea.4374" target="_blank">10.1002/wea.4374</a>.
