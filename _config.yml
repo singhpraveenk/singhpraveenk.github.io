@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Praveen K Singh"
+title                    : "Praveen Kumar Singh"
 title_separator          : "-"
-name                     : &name "Praveen K Singh"
+name                     : &name "Praveen Kumar Singh"
 description              : &description "personal description"
 url                      : https://singhpraveenk.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,9 +22,9 @@ repository               : "singhpraveenk/singhpraveenk.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Praveen K Singh"
+  name             : "Praveen Kumar Singh"
   pronouns         : #"he/his"  
-  bio              : "Researcher (Air pollution and climate in the Hindu Kush Himalayan region)"
+  bio              : "Researcher (Air pollution and climate Change in the Hindu Kush Himalayan region)"
   location         : "Gorakhpur, Uttar Pradesh, India"
   employer         : "WRI India"
   uri              : # URL
