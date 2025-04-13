@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Aerosols"
-permalink: /research/
+permalink: /research/aerosol/
 author_profile: true
 ---
 
