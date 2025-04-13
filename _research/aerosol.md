@@ -2,7 +2,7 @@
 title: "Aerosols"
 collection: research
 category: aerosol
-permalink: /research/aerosol/
+permalink: /research/aerosol
 ---
 
 <br>
