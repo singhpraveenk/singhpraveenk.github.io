@@ -1,5 +1,5 @@
 ---
-title: "Atmospheric aerosols"
+title: "Atmospheric Aerosols"
 collection: research
 category: 
 excerpt: My work is focused on black carbon aerosol in the Hindu Kush Himalayan region. To learn more about it, click on the above link.
