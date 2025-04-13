@@ -16,10 +16,6 @@ author_profile: true
 
 <p style="text-align: justify;">Aerosols play a significant role in Earth’s climate system. They can scatter or absorb sunlight, influencing the planet’s radiative balance and potentially cooling or warming the atmosphere depending on their composition and altitude. For instance, light-colored aerosols like sulfates reflect sunlight, while dark carbon particles from fires absorb it, contributing to regional warming.</p>
 
-<p style="text-align: justify;">Beyond climate, aerosols affect air quality and human health. Fine particles, when inhaled, can penetrate deep into the lungs, leading to respiratory issues and cardiovascular diseases. They also influence cloud formation by acting as cloud condensation nuclei, altering precipitation patterns and weather systems. Atmospheric aerosols are microscopic solid or liquid particles suspended in the air, ranging from a few nanometers to tens of micrometers in size. These particles, which include dust, soot, sea salt, pollen, and pollutants like sulfates and nitrates, originate from natural sources (e.g., volcanic eruptions and wildfires) and human activities (e.g., industrial emissions and vehicle exhaust).</p>
-
-<p style="text-align: justify;">Aerosols play a significant role in Earth’s climate system. They can scatter or absorb sunlight, influencing the planet’s radiative balance and potentially cooling or warming the atmosphere depending on their composition and altitude. For instance, light-colored aerosols like sulfates reflect sunlight, while dark carbon particles from fires absorb it, contributing to regional warming.</p>
-
 <p style="text-align: justify;">Beyond climate, aerosols affect air quality and human health. Fine particles, when inhaled, can penetrate deep into the lungs, leading to respiratory issues and cardiovascular diseases. They also influence cloud formation by acting as cloud condensation nuclei, altering precipitation patterns and weather systems.</p>
 
 <a href="https://singhpraveenk.github.io/research/aerosol)" target="_blank">Read more ...</a>
