@@ -10,7 +10,7 @@ author_profile: true
 <h3>Aerosols</h3>
 <br>
 <br>
-Black carbon aerosol in the Central Himalaya
+<b>Black carbon aerosol in the Central Himalaya</b>
 <br>
 <br>
 <img src="/images/BC_Central_Himalaya.jpg" alt="Research" style="width:500px;height:300px;">
