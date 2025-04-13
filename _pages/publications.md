@@ -8,22 +8,23 @@ author_profile: true
 
 <h3>Books, Reports, & Chapters</h3>
 
+<p style="text-align: justify;">
 2024
 * Srivastava, P., Namdev, P., & <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In <i>Emerging Issues in Environment, Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.
+</p>
 
 <br>
 
 <h3>Refereed Journal Articles</h3>
 
+<p style="text-align: justify;">
 2025
 * Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.
 
 2023
-<ul>
-<li>Sherpa, T. C., Matthews, T., Perry, L. B., Thapa, A., <b>Singh, P. K.</b>, Khadka, A., Koch, I., Pelto, M., Panday, P., Aryal, D., Shrestha, D., Kang, S., & Mayewski, P. A. (2023). Insights from the first winter weather observations near Mount Everest’s summit. <i>Weather</i>. DOI: <a href="https://doi.org/10.1002/wea.4374" target="_blank">10.1002/wea.4374</a>.</li>
-<li>Saikia, A., Pathak, B., <b>Singh, P. K.</b>, Bhuyan, P. K., & Adhikary, B. (2023). Decadal Changes in Atmospheric Methane Emissions in the Eastern Himalayan Region: Source Apportionment and Impact Assessment. <i>International Journal of Environmental Research</i>, 17(1), 10. DOI: <a href="http://doi.org/10.1007/s41742-022-00501-x" target="_blank">10.1007/s41742-022-00501-x</a>.</li>
-<li><b>Singh, P. K.</b>, Adhikary, B., Chen, X., Kang, S., Poudel, S. P., Tashi, T., Goswami, A., & Puppala, S. P. (2023). Variability of ambient black carbon concentration in the Central Himalaya and its assessment over the Hindu Kush Himalayan region. <i>Science of The Total Environment</i>, 858, 160137. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2022.160137" target="_blank">10.1016/j.scitotenv.2022.160137</a>.</li>
-</ul>
+* Sherpa, T. C., Matthews, T., Perry, L. B., Thapa, A., <b>Singh, P. K.</b>, Khadka, A., Koch, I., Pelto, M., Panday, P., Aryal, D., Shrestha, D., Kang, S., & Mayewski, P. A. (2023). Insights from the first winter weather observations near Mount Everest’s summit. <i>Weather</i>. DOI: <a href="https://doi.org/10.1002/wea.4374" target="_blank">10.1002/wea.4374</a>.
+* Saikia, A., Pathak, B., <b>Singh, P. K.</b>, Bhuyan, P. K., & Adhikary, B. (2023). Decadal Changes in Atmospheric Methane Emissions in the Eastern Himalayan Region: Source Apportionment and Impact Assessment. <i>International Journal of Environmental Research</i>, 17(1), 10. DOI: <a href="http://doi.org/10.1007/s41742-022-00501-x" target="_blank">10.1007/s41742-022-00501-x</a>.
+* <b>Singh, P. K.</b>, Adhikary, B., Chen, X., Kang, S., Poudel, S. P., Tashi, T., Goswami, A., & Puppala, S. P. (2023). Variability of ambient black carbon concentration in the Central Himalaya and its assessment over the Hindu Kush Himalayan region. <i>Science of The Total Environment</i>, 858, 160137. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2022.160137" target="_blank">10.1016/j.scitotenv.2022.160137</a>.
  
 ​2022
 <ul>
