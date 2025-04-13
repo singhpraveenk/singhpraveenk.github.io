@@ -2,6 +2,7 @@
 title: "Aerosols"
 collection: research
 category: aerosol
+excerpt: Aerosols
 permalink: /research/aerosol
 ---
 
