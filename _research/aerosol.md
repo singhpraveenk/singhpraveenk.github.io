@@ -19,7 +19,7 @@ permalink: /research/aerosol
 
 <b>The assessment of black carbon over the Hindu Kush Himalayan region</b>
 <br>
-<img src="/images/Assessment_Black_Carbon_HKH.jpg" alt="Assessment Balck carbon over HKH region" width="600" height="300" align="center" style="margin-left: 0px; margin-right: 0px; margin-top: 10px; margin-bottom: 10px;">
+<img src="/images/Assessment_Black_Carbon_HKH.jpg" alt="Assessment Balck carbon over HKH region" width="600" height="300" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;">
 <p style="text-align: justify;">By combining our data with previously published literature, we put our measurements in perspective by presenting a comprehensive assessment of BC concentrations and their variability over the Hindu Kush Himalayan (HKH) region. Persistent seasonal meteorology significantly influenced the high, mid, and low altitude BC levels in all three geographic areas. However, the mid-altitude stations were substantially affected by valley dynamics and urbanization. The low-altitude stations experienced high BC concentrations during the winter and post-monsoon seasons. Concentration-weighted trajectory (CWT) and frequency analyses revealed the dominance of long-range transported pollution during winter over HKH, from west to east. South Asian sources remained significant during the monsoon season. During pre- and post-monsoon, the local, regional, and long-distance pollution varied depending on the location of the receptor site.</p>
 
 Read more ...
