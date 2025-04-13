@@ -3,7 +3,6 @@ title: "Aerosols"
 collection: research
 category: aerosol
 permalink: /research/aerosol/
-author_profile: true
 ---
 
 <br>
