@@ -1,6 +1,6 @@
 ---
-layout: archive
 title: "Aerosols"
+collection: research
 permalink: /research/aerosol/
 author_profile: true
 ---
