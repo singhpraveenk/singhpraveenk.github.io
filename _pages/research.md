@@ -12,5 +12,6 @@ author_profile: true
 <br>
 Black carbon aerosol in the Central Himalaya
 <br>
+<br>
 <img src="/images/BC_Central_Himalaya.jpg" alt="Research" style="width:500px;height:300px;">
 
