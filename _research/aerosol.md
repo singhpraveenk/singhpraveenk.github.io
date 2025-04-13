@@ -2,7 +2,7 @@
 title: "Atmospheric aerosols"
 collection: research
 category: 
-excerpt: To learn more about it, clock in on the above.
+excerpt: To learn more about it, click on the above.
 permalink: /research/aerosol
 ---
 
