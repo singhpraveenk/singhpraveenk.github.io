@@ -2,7 +2,7 @@
 title: "Atmospheric aerosols"
 collection: research
 category: 
-excerpt: XYZ
+excerpt: Atmospheric aerosols are microscopic solid or liquid particles suspended in the air, ranging from a few nanometers to tens of micrometers in size. These particles, which include dust, soot, sea salt, pollen, and pollutants like sulfates and nitrates, originate from natural sources (e.g., volcanic eruptions and wildfires) and human activities (e.g., industrial emissions and vehicle exhaust).
 permalink: /research/aerosol
 ---
 
