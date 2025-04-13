@@ -2,7 +2,7 @@
 title: "Atmospheric aerosols"
 collection: research
 category: 
-excerpt: 
+excerpt: XYZ
 permalink: /research/aerosol
 ---
 
