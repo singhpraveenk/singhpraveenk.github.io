@@ -8,11 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I hold a Ph.D. from the Centre of Excellence in Disaster Mitigation & Management at the Indian Institute of Technology Roorkee, India, focused on "Black carbon aerosols, Himalayan glaciers, and future climate variability." My research centers on questions about the <b>Himalayan Cryosphere, Carbonous Aerosols, and Climate Change</b>. I often use radiative transfer, radiation balance, and hydrological models in my research.
 
 
-I work at <a href="https://wri-india.org/" target="_blank">WRI India</a>, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.
+I hold a Ph.D. from the Centre of Excellence in Disaster Mitigation & Management at the Indian Institute of Technology Roorkee, India, and my research centers on questions about the <b>Himalayan Cryosphere, Black Carbon Aerosols, and Future Climate variability in the Hindu Kush Himalayan (HKH) Region</b>. I often use the general circulation model, regional climate model, satellite, gridded dataset, radiative transfer, radiation balance, and hydrological models to understand the impact of climate change and aerosols over the glacier and climate of the HKH region.
 
-I have a Ph.D. from the <a href="https://iitr.ac.in/Centres/Centre%20of%20Excellence%20in%20Disaster%20Mitigation%20and%20Management/Home.html" target="_blank">Centre of Excellence in Disaster Mitigation & Management</a> (CoEDMM) at the <a href="https://iitr.ac.in/" target="_blank">Indian Institute of Technology Roorkee</a> (IITR), India. 
-
-My research centers on questions about the Himalayan Cryosphere, Carbonous Aerosols, and Climate Change. My research often uses radiative transfer, radiation balance, and hydrological models.
+I work at WRI India, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.
