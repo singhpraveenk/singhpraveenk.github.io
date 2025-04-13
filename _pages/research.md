@@ -20,4 +20,8 @@ author_profile: true
 <br>
 
 <b>The assessment of black carbon over the Hindu Kush Himalayan region</b>
+<br>
+By combining our data with previously published literature, we put our measurements in perspective by presenting a comprehensive assessment of BC concentrations and their variability over the Hindu Kush Himalayan (HKH) region. Persistent seasonal meteorology significantly influenced the high, mid, and low altitude BC levels in all three geographic areas. However, the mid-altitude stations were substantially affected by valley dynamics and urbanization. The low-altitude stations experienced high BC concentrations during the winter and post-monsoon seasons. Concentration-weighted trajectory (CWT) and frequency analyses revealed the dominance of long-range transported pollution during winter over HKH, from west to east. South Asian sources remained significant during the monsoon season. During pre- and post-monsoon, the local, regional, and long-distance pollution varied depending on the location of the receptor site.
+
+Read more ...
 
