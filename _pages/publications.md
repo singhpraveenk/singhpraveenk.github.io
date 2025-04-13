@@ -17,7 +17,7 @@ author_profile: true
 
 2025
 <ul>
-<li>Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth</i>, Parts A/B/C 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.</li>
+<li>Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.</li>
 </ul>
 
 2023
