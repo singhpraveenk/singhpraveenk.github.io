@@ -9,7 +9,7 @@ redirect_from:
 ---
 <br> 
 <br> 
-<p style="text-align: justify;">I hold a Ph.D. from the Indian Institute of Technology Roorkee, India, and my research centers on questions about the <i>Cryosphere, Black Carbon Aerosols, and Future Climate variability in the Hindu Kush Himalayan (HKH) Region</i>.</p>
+<p style="text-align: justify;">I hold a Ph.D. from the Indian Institute of Technology Roorkee, India, and my research centers on questions about  <i>the Cryosphere, Black Carbon Aerosols, and Future Climate variability in the Hindu Kush Himalayan (HKH) Region</i>.</p>
 
 <p style="text-align: justify;">I often use the general circulation model, regional climate model, satellite and gridded datasets, radiative transfer, radiation balance, and hydrological models to understand the impact of climate change and aerosols on the glaciers in the HKH region under past and future climate variability.</p>
 
