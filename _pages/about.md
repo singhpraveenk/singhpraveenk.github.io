@@ -18,6 +18,6 @@ redirect_from:
 <br>
 
 ​Education:
-* Ph.D.in Disaster Mitigation & Management (2025), Indian Institute of Technology Roorkee, India.​
-* M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.
-* B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.
+* Ph.D. (2025), Indian Institute of Technology Roorkee, India.​
+* M.Sc. (2016), Central University of Rajasthan, India.
+* B.Tech. (2011), Gautam Buddh Technical University, India.
