@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Praveen Kumar Singh"
   pronouns         : #"he/his"  
-  bio              : "Researcher (Air pollution and climate Change in the Hindu Kush Himalayan region)"
+  bio              : "Researcher (Air pollution and climate change in the Hindu Kush Himalayan region)"
   location         : "Gorakhpur, Uttar Pradesh, India"
   employer         : "WRI India"
   uri              : # URL
@@ -36,9 +36,9 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-7173-5539"
   semantic         : # URL
-  pubmed           : # URL
+  pubmed           : https://www.ncbi.nlm.nih.gov/myncbi/praveen.singh.6/bibliography/public/
   researchgate     : https://www.researchgate.net/profile/Praveen-Singh-46
-  scopus           : # URL
+  scopus           : https://www.scopus.com/authid/detail.uri?authorId=56420981100
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
