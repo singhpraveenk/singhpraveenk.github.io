@@ -13,7 +13,7 @@ redirect_from:
 
 <p style="text-align: justify;">I often use the general circulation model, regional climate model, satellite and gridded datasets, radiative transfer, radiation balance, and hydrological models to understand the impact of climate change and aerosols on the glaciers in the HKH region under past and future climate variability.</p>
 
-<p style="text-align: justify;">I work at WRI India, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.</p>
+<p style="text-align: justify;">Presently, I am working at WRI India, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.</p>
 
 <br>
 
