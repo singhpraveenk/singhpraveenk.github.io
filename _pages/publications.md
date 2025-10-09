@@ -10,15 +10,15 @@ author_profile: true
 <h3>Books, Reports, & Chapters</h3>
 
 2024
-* <p style="text-align: justify;">Srivastava, P., Namdev, P., & <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In <i>Emerging Issues in Environment, Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.
+* <p style="text-align: justify;">Srivastava, P., Namdev, P., <b>Singh, P. K.</b> (2024). Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event. In <i>Emerging Issues in Environment, Geography and Earth Science</i>, Vol. 9 (pp. 81–111). B P International. DOI: <a href="https://doi.org/10.9734/bpi/eieges/v9/9128A" target="_blank">10.9734/bpi/eieges/v9/9128A</a>.
 
 <br>
 
 <h3>Refereed Journal Articles</h3>
 
 2025
-* <p style="text-align: justify; hyphens: none;"><b>Singh, P. K.</b>, Goswami, A., Puppala, S.P., 2025. Aerosol composition, transport, and radiative impact derived from ground-based and satellite remote sensing in the Central Himalaya. <i>Science of The Total Environment</i>, 1003, 180657. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2025.180657" target="_blank">10.1016/j.scitotenv.2025.180657</a></p> 
-* <p style="text-align: justify; hyphens: none;">Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Physics and Chemistry of the Earth, Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a></p>
+* <p style="text-align: justify; hyphens: none; font-size:160%;"><b>Singh, P. K.</b>, Goswami, A., Puppala, S.P., 2025. Aerosol composition, transport, and radiative impact derived from ground-based and satellite remote sensing in the Central Himalaya. <i>Science of The Total Environment</i>, 1003, 180657. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2025.180657" target="_blank">10.1016/j.scitotenv.2025.180657</a></p> 
+* <p style="text-align: justify; hyphens: none;">Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P. K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Physics and Chemistry of the Earth, Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a></p>
 
 2023
 * <p style="text-align: justify;">Sherpa, T. C., Matthews, T., Perry, L. B., Thapa, A., <b>Singh, P. K.</b>, Khadka, A., Koch, I., Pelto, M., Panday, P., Aryal, D., Shrestha, D., Kang, S., & Mayewski, P. A. (2023). Insights from the first winter weather observations near Mount Everest’s summit. <i>Weather</i>. DOI: <a href="https://doi.org/10.1002/wea.4374" target="_blank">10.1002/wea.4374</a></p>
