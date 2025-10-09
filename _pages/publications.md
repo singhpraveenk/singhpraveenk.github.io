@@ -17,7 +17,7 @@ author_profile: true
 <h3>Refereed Journal Articles</h3>
 
 2025
-* <b>Singh, P. K.</b>, Goswami, A., Puppala, S.P., 2025. Aerosol composition, transport, and radiative impact derived from ground-based and satellite remote sensing in the Central Himalaya. <i>Science of The Total Environment</i>, 1003, 180657. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2025.180657" target="_blank">10.1016/j.scitotenv.2025.180657</a>. 
+* <p style="text-align: justify;"><b>Singh, P. K.</b>, Goswami, A., Puppala, S.P., 2025. Aerosol composition, transport, and radiative impact derived from ground-based and satellite remote sensing in the Central Himalaya. <i>Science of The Total Environment</i>, 1003, 180657. DOI: <a href="https://doi.org/10.1016/j.scitotenv.2025.180657" target="_blank">10.1016/j.scitotenv.2025.180657</a></p>. 
 * Ranjan, R., Goswami, A., Ojha, C.S.P., Jain, S., <b>Singh, P.K.</b>, 2025. Climate change impact assessment on the river discharge of the upper Ganga Subbasin. <i>Phys. Chem. Earth Parts A/B/C</i>, 138, 103887. DOI: <a href="https://doi.org/10.1016/j.pce.2025.103887" target="_blank">10.1016/j.pce.2025.103887</a>.
 
 2023
