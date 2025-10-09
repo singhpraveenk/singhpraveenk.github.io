@@ -13,6 +13,7 @@ Dr. Praveen Kumar Singh is a climate and atmospheric scientist whose research ex
 Dr. Singh earned his Ph.D. in Atmospheric Science from the Indian Institute of Technology Roorkee, where his dissertation examined black carbon concentration, sources, and radiative impacts across the Himalayas. He currently serves as a Senior Program Associate - Air Quality at WRI India, developing evidence-based strategies to reduce urban air pollution and promote climate-resilient planning.
 
 <br>
+
 Education:
 * Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.
 * M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.
