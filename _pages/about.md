@@ -15,7 +15,7 @@ redirect_from:
 
 <br>
 
-<p style="font-size:medium;">​Education:</p>
-* <p style="font-size:medium;">Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.</p>
-* <p style="font-size:medium;">M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.</p>
-* <p style="font-size:medium;">B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.</p>
+<div style="font-size:medium;">​Education:
+* Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.
+* M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.
+* B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.</div>
