@@ -9,15 +9,13 @@ redirect_from:
 ---
 <br> 
 <br> 
-<p style="text-align: justify;">I hold a Ph.D. from the Indian Institute of Technology Roorkee, India, and my research centers on questions about  <i>the Cryosphere, Black Carbon Aerosols, and Future Climate variability in the Hindu Kush Himalayan (HKH) Region</i>.</p>
+<p style="text-align: justify;">Dr. Praveen Kumar Singh is a climate and atmospheric scientist whose research explores the complex linkages between air quality, climate change, and cryospheric processes in the Hindu Kush Himalayan (HKH) region. His work focuses on understanding how short-lived climate pollutants, particularly black carbon, influence climate, glacier melting, regional albedo, and radiative forcing using the general circulation model, regional climate model, satellite and gridded datasets, radiative transfer, radiation balance, and hydrological models.</p>
 
-<p style="text-align: justify;">I often use the general circulation model, regional climate model, satellite and gridded datasets, radiative transfer, radiation balance, and hydrological models to understand the impact of climate change and aerosols on the glaciers in the HKH region under past and future climate variability.</p>
-
-<p style="text-align: justify;">Presently, I am working at WRI India, where I am closely engaged with urban local bodies (ULB) in framing and implementing sectoral air pollution strategies to curb air pollution inside the metropolitan area.</p>
+<p style="text-align: justify;">Dr. Singh earned his Ph.D. in Atmospheric Science from the Indian Institute of Technology Roorkee, where his dissertation examined black carbon concentration, sources, and radiative impacts across the Himalayas. He currently serves as a Senior Program Associate - Air Quality at WRI India, developing evidence-based strategies to reduce urban air pollution and promote climate-resilient planning.</p>
 
 <br>
 
 ​Education:
-* Ph.D. (2025), Indian Institute of Technology Roorkee, India.​
-* M.Sc. (2016), Central University of Rajasthan, India.
-* B.Tech. (2011), Gautam Buddh Technical University, India.
+* Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.​
+* M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.
+* B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.
