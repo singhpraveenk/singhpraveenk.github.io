@@ -9,13 +9,13 @@ redirect_from:
 ---
 <br> 
 <br> 
-<p style="text-align: justify;">Dr. Praveen Kumar Singh is a climate and atmospheric scientist whose research explores the complex linkages between air quality, climate change, and cryospheric processes in the Hindu Kush Himalayan (HKH) region. His work focuses on understanding how short-lived climate pollutants, particularly black carbon, influence climate, glacier melting, regional albedo, and radiative forcing using various models, such as general circulation, regional climate, radiative transfer, radiation balance, hydrological, along with ground-based observation, satellite, and gridded datasets.</p>
+<p style="text-align: justify; hyphens: none;">Dr. Praveen Kumar Singh is a climate and atmospheric scientist whose research explores the complex linkages between air quality, climate change, and cryospheric processes in the Hindu Kush Himalayan (HKH) region. His work focuses on understanding how short-lived climate pollutants, particularly black carbon, influence climate, glacier melting, regional albedo, and radiative forcing using various models, such as general circulation, regional climate, radiative transfer, radiation balance, hydrological, along with ground-based observation, satellite, and gridded datasets.</p>
 
-<p style="text-align: justify;">Dr. Singh earned his Ph.D. in Atmospheric Science from the Indian Institute of Technology Roorkee, where his dissertation examined black carbon concentration, sources, and radiative impacts across the Himalayas. He currently serves as a Senior Program Associate - Air Quality at WRI India, developing evidence-based strategies to reduce urban air pollution and promote climate-resilient planning.</p>
+<p style="text-align: justify; hyphens: none;">Dr. Singh earned his Ph.D. in Atmospheric Science from the Indian Institute of Technology Roorkee, where his dissertation examined black carbon concentration, sources, and radiative impacts across the Himalayas. He currently serves as a Senior Program Associate - Air Quality at WRI India, developing evidence-based strategies to reduce urban air pollution and promote climate-resilient planning.</p>
 
 <br>
 
 ​Education:
-* Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.​
-* M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.
-* B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.
+* <p style="text-align: justify; hyphens: none;">Ph.D. in Atmospheric Science (2025), Indian Institute of Technology Roorkee, India.​</p>
+* <p style="text-align: justify; hyphens: none;">M.Sc. in Environmental Science (2016), Central University of Rajasthan, India.</p>
+* <p style="text-align: justify; hyphens: none;">B.Tech. in Electronics & Communication Engineering (2011), Gautam Buddh Technical University, India.</p>
