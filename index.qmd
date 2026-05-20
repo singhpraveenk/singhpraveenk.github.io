@@ -1,0 +1,33 @@
+---
+title: Praveen K Singh
+image: images/profile.png
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+  - icon: file-pdf
+    text: CV
+    href: documents/CV_Praveen_K_Singh.pdf
+  - icon: x-twitter
+    text: X (Twitter)
+    href: https://x.com/singhpraveenk_
+  - icon: github
+    text: GitHub
+    href: https://github.com/singhpraveenk/
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/singhpraveenk
+  - icon: envelope
+    text: Email
+    href: mailto:praveenglaciology@gmail.com
+  - icon: mortarboard
+    text: Google Scholar
+    href: https://scholar.google.com/citations?user=1VBWBrMAAAAJ&hl
+  - icon: orcid
+    text: ORCID
+    href: https://orcid.org/0000-0001-7173-5539
+  - icon: researchgate
+    text: ORCID
+    href: https://www.researchgate.net/profile/Praveen-Singh-46
+---
