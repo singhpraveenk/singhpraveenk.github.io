@@ -1,16 +1,16 @@
 [
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "&lt;&lt;publications_body.md&gt;&gt;"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Praveen K Singh",
     "section": "",
     "text": "Research ScientistLaboratoire de Météorologie Dynamique - IPSLÉcole Polytechnique, Route de Saclay 91128, Palaiseau, France\n\n  \n\nAs a climate and atmospheric scientist, I investigate the intricate connections between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan (HKH) region. My work centers on understanding how short‑lived climate pollutants—especially black carbon—shape regional climate dynamics, glacier melt, surface albedo, and radiative forcing. To uncover these linkages, I integrate a wide suite of tools, including general circulation, regional climate, radiative transfer, radiation balance, and hydrological models, complemented by ground‑based observations, satellite measurements, and high‑resolution gridded datasets."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "@Singh2025\n@Ranjan2025\n@Sherpa2023\n@Saikia2023\n@Singh2023\n@Upadhyay2022\n@Srivastava2022\n@Potocki2022\n@Clifford2021\n@Gul2021\n@Singh2018"
   }
 ]
