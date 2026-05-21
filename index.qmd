@@ -1,33 +1,56 @@
 ---
 title: Praveen K Singh
 image: images/profile.png
-about:
-  template: trestles
+about: 
+  template: jolla
   image-width: 15em
   image-shape: round
   links:
-  - icon: file-pdf
-    text: CV
-    href: documents/CV_Praveen_K_Singh.pdf
-  - icon: x-twitter
-    text: X (Twitter)
-    href: https://x.com/singhpraveenk_
-  - icon: github
-    text: GitHub
+    
+  - text: "{{< iconify uiw:github size=2x >}}"
     href: https://github.com/singhpraveenk/
-  - icon: linkedin
-    text: LinkedIn
-    href: https://www.linkedin.com/in/singhpraveenk
-  - icon: envelope
-    text: Email
-    href: mailto:praveenglaciology@gmail.com
-  - icon: mortarboard
-    text: Google Scholar
+    target: _blank
+    
+  - text: "{{< ai google-scholar-square size=2x >}}"
     href: https://scholar.google.com/citations?user=1VBWBrMAAAAJ&hl
-  - icon: orcid
-    text: ORCID
+    target: _blank
+    
+  - text: "{{< ai orcid size=2x >}}"
     href: https://orcid.org/0000-0001-7173-5539
-  - icon: researchgate
-    text: ORCID
+    target: _blank
+    
+  - text: "{{< ai researchgate-square size=2x >}}"
     href: https://www.researchgate.net/profile/Praveen-Singh-46
+    target: _blank
+    
+  - text: "{{< ai scopus size=2x >}}"
+    href: https://www.scopus.com/authid/detail.uri?authorId=56420981100
+    target: _blank
+    
+  - text: "{{< iconify  uil:instagram-alt size=2x >}}"
+    href: https://instagram.com/singhpraveenk_photography
+    target: _blank
+    
+  - text: "{{< iconify uiw:linkedin size=2x >}}"
+    href: https://www.linkedin.com/in/singhpraveenk
+    target: _blank
+    
+  - text: "{{< iconify streamline-logos:x-twitter-logo-block size=2x >}}"
+    href: https://x.com/singhpraveenk_
+    target: _blank
+    
+  - text: "{{< iconify zondicons:envelope size=2x >}}"
+    href: mailto:praveenglaciology@gmail.com
+    target: _blank
 ---
+
+<div style="text-align: center">Research Scientist<br>Laboratoire de Météorologie Dynamique - IPSL<br>École Polytechnique, Route de Saclay 91128, Palaiseau, France</div>
+<br>
+<br>
+<br>
+<div style="text-align: justify">
+As a climate and atmospheric scientist, I investigate the intricate connections between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan (HKH) region. My work centers on understanding how short‑lived climate pollutants—especially black carbon—shape regional climate dynamics, glacier melt, surface albedo, and radiative forcing. To uncover these linkages, I integrate a wide suite of tools, including general circulation, regional climate, radiative transfer, radiation balance, and hydrological models, complemented by ground‑based observations, satellite measurements, and high‑resolution gridded datasets.</div>
+
+
+
+

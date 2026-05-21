@@ -3,7 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: " "
+  title: ""
+  # body-footer: 
+  page-footer: 
+    center: "© 2026 Praveen Kumar Singh"
+    border: true
+    background: light
+  # announcement:
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - this is some information that you should pay attention to"
+  #   type: light
+  #   position: below-navbar
+  back-to-top-navigation: true
   navbar:
     left:
       - text: "Home"
@@ -12,24 +24,30 @@ website:
         href: research.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Contact"
+      # - text: "Contact"
+  search:
+      location: navbar
+      type: overlay
+  cookie-consent: false
         
 
 format:
   html:
+    respect-user-color-scheme: true
     page-layout: full
     toc: true
     grid:
       margin-width: 14%
     theme:
-      light: [litera, styles.scss]
-      dark: [darkly, styles-dark.scss]
-    highlight-style: a11y-dark
-    mainfont: "Roboto"
+      light: flatly
+      dark: darkly
     code-copy: true
     code-overflow: wrap
+    
 
 execute:
   freeze: auto
   enabled: false
+  
+
 
