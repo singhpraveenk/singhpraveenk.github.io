@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Praveen K Singh</title>
+<title>Praveen K Singh –</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,17 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-70be5ccd51f03de5ce195d75fadf0882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-70be5ccd51f03de5ce195d75fadf0882.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-70be5ccd51f03de5ce195d75fadf0882.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3bc6e5c489f1fde93ec976bd22c35e85.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2234b1eca16a58bcf9af730612e1bae1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-3bc6e5c489f1fde93ec976bd22c35e85.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
-<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0be4b6469b7b5b3c002363edf17c6c87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9b46d445f5b259a28ee2b7389f087fb4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0be4b6469b7b5b3c002363edf17c6c87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +58,7 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -222,8 +220,7 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkModeDefault = queryPrefersDark.matches;
+    const darkModeDefault = authorPrefersDark;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -236,14 +233,6 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
-    queryPrefersDark.addEventListener("change", e => {
-      if(window.localStorage.getItem("quarto-color-scheme") !== null)
-        return;
-      const alternate = e.matches
-      toggleColorMode(alternate);
-      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
-      toggleGiscusIfUsed(alternate, darkModeDefault);
-    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -256,6 +245,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"></span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -267,12 +261,17 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="./research.qmd"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="./publications.qmd"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">Contact</span>
+    </span>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -288,57 +287,57 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="images/profile.png" class="about-image
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="images/profile.png" class="about-image
   round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Praveen K Singh</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
-</header><main class="content column-page" id="quarto-document-content">
-
-<div style="text-align: center">
-Research Scientist<br>Laboratoire de Météorologie Dynamique - IPSL<br>École Polytechnique, Route de Saclay 91128, Palaiseau, France
-</div>
-<br> <br> <br>
-<div style="text-align: justify">
-As a climate and atmospheric scientist, I investigate the intricate connections between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan (HKH) region. My work centers on understanding how short‑lived climate pollutants—especially black carbon—shape regional climate dynamics, glacier melt, surface albedo, and radiative forcing. To uncover these linkages, I integrate a wide suite of tools, including general circulation, regional climate, radiative transfer, radiation balance, and hydrological models, complemented by ground‑based observations, satellite measurements, and high‑resolution gridded datasets.
-</div>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/singhpraveenk/" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="uiw:github" style="font-size: 2em;" aria-label="Icon github from uiw Iconify.design set." title="Icon github from uiw Iconify.design set."></iconify-icon></span>
+</header>
+    <div class="about-links">
+  <a href="/documents/CV_Praveen_K_Singh.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-pdf"></i>
+     <span class="about-link-text">CV</span>
   </a>
-  <a href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-google-scholar-square ai-2x" aria-label="google-scholar-square"></i></span>
+  <a href="https://x.com/singhpraveenk_" class="about-link" rel="" target="">
+    <i class="bi bi-x-twitter"></i>
+     <span class="about-link-text">X (Twitter)</span>
   </a>
-  <a href="https://orcid.org/0000-0001-7173-5539" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-orcid ai-2x" aria-label="orcid"></i></span>
+  <a href="https://github.com/singhpraveenk/" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
   </a>
-  <a href="https://www.researchgate.net/profile/Praveen-Singh-46" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-researchgate-square ai-2x" aria-label="researchgate-square"></i></span>
+  <a href="https://www.linkedin.com/in/singhpraveenk" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=56420981100" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-scopus ai-2x" aria-label="scopus"></i></span>
+  <a href="mailto:praveenglaciology@gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
   </a>
-  <a href="https://instagram.com/singhpraveenk_photography" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="uil:instagram-alt" style="font-size: 2em;" aria-label="Icon instagram-alt from uil Iconify.design set." title="Icon instagram-alt from uil Iconify.design set."></iconify-icon></span>
+  <a href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl" class="about-link" rel="" target="">
+    <i class="bi bi-mortarboard"></i>
+     <span class="about-link-text">Google Scholar</span>
   </a>
-  <a href="https://www.linkedin.com/in/singhpraveenk" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="uiw:linkedin" style="font-size: 2em;" aria-label="Icon linkedin from uiw Iconify.design set." title="Icon linkedin from uiw Iconify.design set."></iconify-icon></span>
+  <a href="https://orcid.org/0000-0001-7173-5539" class="about-link" rel="" target="">
+    <i class="bi bi-orcid"></i>
+     <span class="about-link-text">ORCID</span>
   </a>
-  <a href="https://x.com/singhpraveenk_" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="streamline-logos:x-twitter-logo-block" style="font-size: 2em;" aria-label="Icon x-twitter-logo-block from streamline-logos Iconify.design set." title="Icon x-twitter-logo-block from streamline-logos Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="mailto:praveenglaciology@gmail.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="zondicons:envelope" style="font-size: 2em;" aria-label="Icon envelope from zondicons Iconify.design set." title="Icon envelope from zondicons Iconify.design set."></iconify-icon></span>
+  <a href="https://www.researchgate.net/profile/Praveen-Singh-46" class="about-link" rel="" target="">
+    <i class="bi bi-researchgate"></i>
+     <span class="about-link-text">ORCID</span>
   </a>
 </div>
+  </div>
+  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+
+
+
+</main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -748,19 +747,6 @@ As a climate and atmospheric scientist, I investigate the intricate connections 
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>© 2026 Praveen Kumar Singh</p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 
