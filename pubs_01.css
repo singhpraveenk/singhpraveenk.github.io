@@ -1,0 +1,87 @@
+/* Ensure theme font is preserved */
+.pubs, 
+.pubs p, 
+.pubs li {
+  font-family: var(--bs-body-font-family);
+}
+
+/* Justify text for paragraphs and list items */
+.pubs p, 
+.pubs li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Hanging indent for bibliography-style entries */
+.pubs ul {
+  list-style-type: none;   /* cleaner academic look */
+  padding-left: 0;
+}
+
+.pubs li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 0.65em;
+  line-height: 1.45;
+}
+
+/* Year headings: subtle spacing */
+.pubs h3 {
+  margin-top: 1.4em;
+  font-weight: 600;
+}
+
+/* Section headings */
+.pubs h2 {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  font-weight: 700;
+}
+
+/* DOI link styling */
+.pubs a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--bs-link-color);
+}
+
+.pubs a:hover {
+  text-decoration: underline;
+}
+
+/* Slightly tighter spacing inside the block */
+.pubs {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* Icon container */
+.pubs-icons {
+  margin-top: 1.2em;
+  margin-bottom: 1.8em;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Icon links */
+.pubs-icons a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  border-bottom: 1px dotted transparent;
+}
+
+.pubs-icons a:hover {
+  color: var(--bs-link-color);
+  border-bottom-color: var(--bs-link-color);
+}
+
+/* Icon SVGs */
+.pubs-icons svg {
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+}
