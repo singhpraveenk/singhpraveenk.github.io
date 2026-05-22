@@ -1,0 +1,137 @@
+
+/* Apply ONLY on index.qmd */
+body.index .about-image {
+  border: 4px solid var(--quarto-border-color);
+  border-radius: 50%;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body.index .quarto-title-block .title::after {
+  content: "Research Scientist\A Laboratoire de Météorologie Dynamique - IPSL\A\A 📍\A École Polytechnique\A Route de Saclay 91128, Palaiseau, France";
+  white-space: pre-wrap;
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+  color: var(--quarto-font-color);
+}
+
+
+
+/* FORCE about-links to stay horizontal on all screen sizes */
+body.index .about-links {
+  margin-top: 1.2rem;
+
+  display: inline-flex !important;   /* override Quarto block layout */
+  flex-direction: row !important;    /* always horizontal */
+  gap: 0.9rem;
+  align-items: center;
+
+  flex-wrap: nowrap !important;      /* NEVER wrap */
+  white-space: nowrap !important;    /* force single line */
+  overflow-x: auto;                  /* scroll on small screens */
+  overflow-y: hidden;
+
+  flex-shrink: 0 !important;         /* prevent container shrinking */
+  max-width: 100% !important;        /* allow scrolling instead of stacking */
+
+  scrollbar-width: none;             /* hide scrollbar (Firefox) */
+}
+
+body.index .about-links::-webkit-scrollbar {
+  display: none;                     /* hide scrollbar (Chrome/Safari) */
+}
+
+body.index .about-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0 !important;         /* prevent link shrinking */
+  text-decoration: none;
+}
+
+body.index .about-links img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  flex-shrink: 0 !important;         /* icons NEVER shrink */
+
+  filter: var(--quarto-img-filter);
+  transition: opacity 0.2s ease;
+}
+
+body.index .about-links img:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+/* Root-aware timeline styling that inherits Quarto theme colors */
+.timeline {
+  position: relative;
+  margin: 2rem auto;      /* centers the whole timeline */
+  padding-left: 1.5rem;
+  width: 75%;             /* restrict width */
+  border-left: 3px solid var(--quarto-border-color);
+}
+
+/* Timeline item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Dot uses theme accent color */
+.timeline-dot {
+  position: absolute;
+  left: -1.65rem;
+  top: 0.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--quarto-bg);
+  border: 3px solid var(--quarto-border-color);
+}
+
+.timeline-dot.filled {
+  background: var(--quarto-accent-color);
+}
+
+/* Card inherits Quarto card styling */
+.timeline-card {
+  background: var(--quarto-bg);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--quarto-border-color);
+  box-shadow: var(--quarto-box-shadow, 0 1px 3px rgba(0,0,0,0.08));
+}
+
+/* Typography matches Quarto defaults */
+.timeline-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.tl-org {
+  color: var(--quarto-font-color);
+}
+
+.tl-date {
+  font-size: 0.9rem;
+  color: var(--quarto-font-color);
+  margin-bottom: 0.75rem;
+}
+
+/* Skill tags match Quarto pill style */
+.skill-tag {
+  display: inline-block;
+  background: var(--quarto-bg-secondary);
+  color: var(--quarto-accent-color);
+  padding: 0.25rem 0.55rem;
+  margin: 0.2rem 0.2rem 0 0;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+}
+

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Praveen K Singh</title>
+<title>Praveen Kumar Singh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,14 +38,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cedf48a746f63ab4bea8aee65ab901ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b14c209c09768dbc4ed152e2c53283b7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cedf48a746f63ab4bea8aee65ab901ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b6840c88ff8715658d20f49b12281830.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
+<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,180 +73,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkModeDefault = queryPrefersDark.matches;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    queryPrefersDark.addEventListener("change", e => {
-      if(window.localStorage.getItem("quarto-color-scheme") !== null)
-        return;
-      const alternate = e.matches
-      toggleColorMode(alternate);
-      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
-      toggleGiscusIfUsed(alternate, darkModeDefault);
-    });
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed index quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -264,17 +93,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.qmd"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -285,74 +113,141 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="images/profile.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+
+
+
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="images/profile.png" class="about-image
+  round " style="height: 15em; width: 15em;" title="Praveen Kumar Singh">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Praveen K Singh</h1>
+<h1 class="title">Praveen Kumar Singh</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
-</header><main class="content column-page" id="quarto-document-content">
-
-<div style="text-align: center">
-Research Scientist<br>Laboratoire de Météorologie Dynamique - IPSL<br>École Polytechnique, Route de Saclay 91128, Palaiseau, France
-</div>
-<br> <br> <br>
-<div style="text-align: justify">
-As a climate and atmospheric scientist, I investigate the intricate connections between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan (HKH) region. My work centers on understanding how short‑lived climate pollutants—especially black carbon—shape regional climate dynamics, glacier melt, surface albedo, and radiative forcing. To uncover these linkages, I integrate a wide suite of tools, including general circulation, regional climate, radiative transfer, radiation balance, and hydrological models, complemented by ground‑based observations, satellite measurements, and high‑resolution gridded datasets.
-</div>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/singhpraveenk/" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; iconify uiw:github size=2x &gt;}}</span>
+</header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/singhpraveenk" class="about-link" rel="" target="_blank">
+     <span class="about-link-text"><iconify-icon role="img" inline="" icon="uiw:linkedin" style="font-size: 2em;" aria-label="Icon linkedin from uiw Iconify.design set." title="Icon linkedin from uiw Iconify.design set."></iconify-icon></span>
   </a>
   <a href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; ai google-scholar-square size=2x &gt;}}</span>
+     <span class="about-link-text"><i class="ai  ai-google-scholar-square ai-2x" aria-label="google-scholar-square"></i></span>
   </a>
   <a href="https://orcid.org/0000-0001-7173-5539" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; ai orcid size=2x &gt;}}</span>
+     <span class="about-link-text"><i class="ai  ai-orcid ai-2x" aria-label="orcid"></i></span>
   </a>
   <a href="https://www.researchgate.net/profile/Praveen-Singh-46" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; ai researchgate-square size=2x &gt;}}</span>
-  </a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=56420981100" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; ai scopus size=2x &gt;}}</span>
-  </a>
-  <a href="https://instagram.com/singhpraveenk_photography" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; iconify  uil:instagram-alt size=2x &gt;}}</span>
-  </a>
-  <a href="https://www.linkedin.com/in/singhpraveenk" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; iconify uiw:linkedin size=2x &gt;}}</span>
+     <span class="about-link-text"><i class="ai  ai-researchgate-square ai-2x" aria-label="researchgate-square"></i></span>
   </a>
   <a href="https://x.com/singhpraveenk_" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; iconify streamline-logos:x-twitter-logo-block size=2x &gt;}}</span>
+     <span class="about-link-text"><iconify-icon role="img" inline="" icon="streamline-logos:x-twitter-logo-block" style="font-size: 2em;" aria-label="Icon x-twitter-logo-block from streamline-logos Iconify.design set." title="Icon x-twitter-logo-block from streamline-logos Iconify.design set."></iconify-icon></span>
   </a>
   <a href="mailto:praveenglaciology@gmail.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">{{&lt; iconify zondicons:envelope size=2x &gt;}}</span>
+     <span class="about-link-text"><iconify-icon role="img" inline="" icon="zondicons:envelope" style="font-size: 2em;" aria-label="Icon envelope from zondicons Iconify.design set." title="Icon envelope from zondicons Iconify.design set."></iconify-icon></span>
   </a>
 </div>
+  </div>
+  <div class="about-contents"><div id="hero-heading">
+<div style="text-align: justify">
+<p>
+I am a climate and atmospheric scientist dedicated to understanding the complex and rapidly evolving interactions between <strong>air quality</strong>, <strong>climate change</strong>, and <strong>cryospheric processes</strong> across the Hindu Kush Himalayan (HKH) region—one of the most climate‑sensitive and data‑scarce mountain systems on Earth. My research centers on the role of<strong>short‑lived climate pollutants</strong>, particularly <strong>black carbon</strong>, and how these particles influence regional climate dynamics, accelerate glacier melt, alter surface albedo, and modify radiative forcing patterns that ultimately affect downstream water resources and livelihoods.
+</p>
+<p>
+To unravel these interconnected processes, I combine a diverse suite of modeling and observational approaches. My work spans <strong>general circulation models</strong>, <strong>regional climate models</strong>, <strong>radiative transfer simulations</strong>, <strong>radiation balance assessments</strong>, and <strong>hydrological modeling frameworks</strong>. These tools are complemented by <strong>ground‑based observations</strong>, <strong>satellite remote sensing</strong>, and <strong>high‑resolution gridded datasets</strong>,enabling a multi‑scale perspective that bridges atmospheric science, cryosphere research, and regional water‑balance studies. Through this integrated approach, I aim to generate actionable insights that support climate resilience, sustainable water management, and evidence‑based policy development across the HKH.
+</p>
 </div>
- <!-- /main -->
+</div></div>
+</div>
+
+<h3 style="display:block; width:75%; margin:0 auto; text-align:left; padding:8px 0;">
+Experience
+</h3>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-dot filled">
+
+</div>
+<section id="senior-program-associate-air-quality" class="level5 timeline-card">
+<h5 data-anchor-id="senior-program-associate-air-quality">Senior Program Associate – Air Quality</h5>
+<p>WRI India, New Delhi<br>
+May 2024–March 2026</p>
+<ul>
+<li>Key achievement or responsibility<br>
+</li>
+<li>Another impact‑focused bullet<br>
+</li>
+<li>Quantified accomplishment<br>
+</li>
+<li>Collaboration, leadership, or technical contribution</li>
+</ul>
+<p><em>Skills:</em> skill1, skill2, skill3</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-dot filled">
+
+</div>
+<section id="ssacryosphere-and-atmosphere" class="level5 timeline-card">
+<h5 data-anchor-id="ssacryosphere-and-atmosphere">SSA–Cryosphere and Atmosphere</h5>
+<p><em>International Centre for Integrated Mountain Development (ICIMOD), Kathmandu, Nepal</em><br>
+<em>January 2020–December 2020</em></p>
+<ul>
+<li>Achievement or responsibility<br>
+</li>
+<li>Technical or analytical contribution<br>
+</li>
+<li>Outcome or measurable impact</li>
+</ul>
+<p><em>Skills:</em> skill1, skill2, skill3</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-dot filled">
+
+</div>
+<section id="research-fellow" class="level5 timeline-card">
+<h5 data-anchor-id="research-fellow">Research Fellow</h5>
+<p><em>International Centre for Integrated Mountain Development (ICIMOD), Kathmandu, Nepal</em><br>
+<em>April 2018–December 2019</em></p>
+<ul>
+<li>Achievement or responsibility<br>
+</li>
+<li>Technical or analytical contribution<br>
+</li>
+<li>Outcome or measurable impact</li>
+</ul>
+<p><em>Skills:</em> skill1, skill2, skill3</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-dot filled">
+
+</div>
+<section id="ph.d." class="level5 timeline-card">
+<h5 data-anchor-id="ph.d.">Ph.D.</h5>
+<p><em>Indian Institute Of Technology Roorkee, India</em><br>
+<em>2018–2024</em></p>
+<ul>
+<li>Achievement or responsibility<br>
+</li>
+<li>Technical or analytical contribution<br>
+</li>
+<li>Outcome or measurable impact</li>
+</ul>
+<p><em>Skills:</em> skill1, skill2, skill3</p>
+</section>
+</div>
+</div>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
