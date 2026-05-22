@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: main
 
 jobs:
   build-deploy:
@@ -9,9 +9,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - name: Install Quarto
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Publish to GitHub Pages
