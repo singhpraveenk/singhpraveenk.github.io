@@ -73,7 +73,7 @@ body.index .about-links img:hover {
   position: relative;
   margin: 2rem auto;      /* centers the whole timeline */
   padding-left: 1.5rem;
-  width: 60%;             /* restrict width */
+  width: 80%;             /* restrict width */
   border-left: 3px solid var(--quarto-border-color);
 }
 
@@ -109,7 +109,7 @@ body.index .about-links img:hover {
 }
 
 /* Typography matches Quarto defaults */
-.timeline-card h4 {
+.timeline-card h5 {
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
