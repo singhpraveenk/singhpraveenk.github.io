@@ -22,7 +22,7 @@ body.index .about-image {
 }
 
 body.index .quarto-title-block .title::after {
-  content: "Research Scientist\A Laboratoire de Météorologie Dynamique - IPSL\A\A 📍\A École Polytechnique\A Route de Saclay 91128, Palaiseau, France";
+  content: "Postdoctoral Research Scientist\A Laboratoire de Météorologie Dynamique - IPSL\A\A 📍\A École Polytechnique\A Route de Saclay 91128, Palaiseau, France";
   white-space: pre-wrap;
   display: block;
   margin-top: 0.6rem;
