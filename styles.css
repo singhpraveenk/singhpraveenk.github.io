@@ -1,3 +1,17 @@
+:root {
+  --bs-primary: #0066cc;      /* main theme color */
+  --bs-secondary: #ff8800;    /* optional secondary */
+  --bs-link-color: #0066cc;   /* link color */
+}
+:root[data-bs-theme="light"] {
+  --bs-primary: #0066cc;
+}
+
+:root[data-bs-theme="dark"] {
+  --bs-primary: #66aaff;
+}
+
+
 
 /* Apply ONLY on index.qmd */
 body.index .about-image {
@@ -22,18 +36,18 @@ body.index .quarto-title-block .title::after {
 body.index .about-links {
   margin-top: 1.2rem;
 
-  display: inline-flex !important;   /* override Quarto block layout */
-  flex-direction: row !important;    /* always horizontal */
+  display: inline-flex;   /* override Quarto block layout */
+  flex-direction: row;    /* always horizontal */
   gap: 0.9rem;
   align-items: center;
 
-  flex-wrap: nowrap !important;      /* NEVER wrap */
-  white-space: nowrap !important;    /* force single line */
+  flex-wrap: nowrap;      /* NEVER wrap */
+  white-space: nowrap;    /* force single line */
   overflow-x: auto;                  /* scroll on small screens */
   overflow-y: hidden;
 
-  flex-shrink: 0 !important;         /* prevent container shrinking */
-  max-width: 100% !important;        /* allow scrolling instead of stacking */
+  flex-shrink: 0;         /* prevent container shrinking */
+  max-width: 100%;        /* allow scrolling instead of stacking */
 
   scrollbar-width: none;             /* hide scrollbar (Firefox) */
 }
@@ -46,7 +60,7 @@ body.index .about-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0 !important;         /* prevent link shrinking */
+  flex-shrink: 0;         /* prevent link shrinking */
   text-decoration: none;
 }
 
@@ -65,53 +79,58 @@ body.index .about-links img:hover {
 }
 
 
-
-
-
-/* Root-aware timeline styling that inherits Quarto theme colors */
+/* Timeline used for work experience */
 .timeline {
   position: relative;
   margin: 2rem auto;      /* centers the whole timeline */
   padding-left: 1.5rem;
   width: 80%;             /* restrict width */
-  border-left: 3px solid var(--quarto-border-color);
+  border-left: 5px solid var(--quarto-border-color);
 }
 
-/* Timeline item */
 .timeline-item {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* Dot uses theme accent color */
 .timeline-dot {
   position: absolute;
   left: -1.65rem;
-  top: 0.25rem;
-  width: 12px;
-  height: 12px;
+  top: 1.35rem;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background: var(--quarto-bg);
-  border: 3px solid var(--quarto-border-color);
+  border: 6px solid var(--quarto-border-color);
 }
 
 .timeline-dot.filled {
   background: var(--quarto-accent-color);
 }
 
-/* Card inherits Quarto card styling */
 .timeline-card {
   background: var(--quarto-bg);
+  border: 2px solid var(--quarto-border-color);
+  border-radius: 1rem;
   padding: 1rem 1.2rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--quarto-border-color);
-  box-shadow: var(--quarto-box-shadow, 0 1px 3px rgba(0,0,0,0.08));
+  box-shadow: var(--quarto-box-shadow, 0 2px 8px rgba(0,0,0,0.08));
 }
 
-/* Typography matches Quarto defaults */
-.timeline-card h5 {
-  margin-top: 0;
-  margin-bottom: 0.25rem;
+.timeline-card:hover {
+  box-shadow: 0 4px 18px var(--quarto-box-shadow, rgba(0,0,0,0.08));
+  border-color: var(--quarto-border-color);
+}
+
+.timeline-card {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.tl-title {
+  font-size: 1.1rem 
+  font-weight: 700 
+  color: var(--quarto-font-color);
+  margin: 0 0 0.2rem 0 
 }
 
 .tl-org {
@@ -124,6 +143,27 @@ body.index .about-links img:hover {
   margin-bottom: 0.75rem;
 }
 
+.tl-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--quarto-bg);
+  color:  var(--quarto-font-color);
+  border: 1px solid var(--quarto-border-color);
+  border-radius: 20px;
+  padding: 1px 9px;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+  letter-spacing: 0.02em;
+}
+
+.tl-skills {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 /* Skill tags match Quarto pill style */
 .skill-tag {
   display: inline-block;
@@ -131,7 +171,8 @@ body.index .about-links img:hover {
   color: var(--quarto-accent-color);
   padding: 0.25rem 0.55rem;
   margin: 0.2rem 0.2rem 0 0;
-  border-radius: 0.4rem;
+  border-radius: 1rem;
   font-size: 0.8rem;
+  border: 1px solid var(--quarto-border-color);
 }
 
