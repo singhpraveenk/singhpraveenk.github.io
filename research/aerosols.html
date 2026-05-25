@@ -251,6 +251,157 @@ Key findings
 This work improves the representation of aerosol–radiation interactions in climate models and highlights the vulnerability of Himalayan glaciers to elevated aerosol layers.
 <p></p>
 </div>
+<canvas id="aeroCanvas" width="500" height="600" style="max-width: 500px; width: 100%;">
+</canvas>
+<script>
+// -----------------------------
+// Example JSON data
+// -----------------------------
+const profile = [
+  { z: 0, extinction: 0.15, HR: 0.05 },
+  { z: 1, extinction: 0.25, HR: 0.08 },
+  { z: 2, extinction: 0.35, HR: 0.10 },
+  { z: 3, extinction: 0.50, HR: 0.14 },
+  { z: 4, extinction: 0.65, HR: 0.18 },
+  { z: 5, extinction: 0.75, HR: 0.20 },
+  { z: 6, extinction: 0.63, HR: 0.17 },
+  { z: 7, extinction: 0.45, HR: 0.12 }
+];
+
+// -----------------------------
+const c = document.getElementById("aeroCanvas");
+const ctx = c.getContext("2d");
+
+const W = c.width;
+const H = c.height;
+
+const margin = { top: 50, right: 40, bottom: 60, left: 70 };
+
+const plotW = W - margin.left - margin.right;
+const plotH = H - margin.top - margin.bottom;
+
+const zMax = Math.max(...profile.map(p => p.z));
+
+const xScale = v => margin.left + v * plotW;
+const yScale = z => margin.top + plotH - (z / zMax) * plotH;
+
+// -----------------------------
+function drawBands() {
+ctx.save();
+ctx.globalAlpha = 0.12;
+
+// 3–5 km
+ctx.fillStyle = "#facc15";
+ctx.fillRect(margin.left, yScale(5), plotW, yScale(3) - yScale(5));
+
+// >5 km
+ctx.fillStyle = "#22c55e";
+ctx.fillRect(margin.left, yScale(zMax), plotW, yScale(5) - yScale(zMax));
+
+ctx.restore();
+}
+
+// -----------------------------
+function drawAxes() {
+ctx.strokeStyle = "#666";
+ctx.lineWidth = 1.2;
+
+// Y-axis
+ctx.beginPath();
+ctx.moveTo(margin.left, margin.top);
+ctx.lineTo(margin.left, margin.top + plotH);
+ctx.stroke();
+
+// X-axis
+ctx.beginPath();
+ctx.moveTo(margin.left, margin.top + plotH);
+ctx.lineTo(margin.left + plotW, margin.top + plotH);
+ctx.stroke();
+
+// Y ticks (altitude)
+ctx.fillStyle = "#333";
+ctx.font = "13px sans-serif";
+for (let z = 0; z <= zMax; z++) {
+const y = yScale(z);
+ctx.fillText(z + " km", margin.left - 55, y + 4);
+ctx.beginPath();
+ctx.moveTo(margin.left - 5, y);
+ctx.lineTo(margin.left, y);
+ctx.stroke();
+}
+
+// X-axis units
+ctx.font = "12px sans-serif";
+ctx.fillText("0", margin.left - 3, margin.top + plotH + 20);
+ctx.fillText("1.0", margin.left + plotW - 20, margin.top + plotH + 20);
+
+// X-axis label (units)
+ctx.font = "13px sans-serif";
+ctx.fillText("Normalized Extinction (km⁻¹ / max)  &  Heating Rate (K day⁻¹ / max)",
+margin.left, margin.top + plotH + 40);
+}
+
+// -----------------------------
+function drawProfiles() {
+// Extinction line
+ctx.strokeStyle = "#f97316";
+ctx.lineWidth = 3;
+ctx.beginPath();
+profile.forEach((p, i) => {
+const x = xScale(p.extinction);
+const y = yScale(p.z);
+i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+});
+ctx.stroke();
+
+// HR line
+ctx.strokeStyle = "#ef4444";
+ctx.lineWidth = 3;
+ctx.beginPath();
+profile.forEach((p, i) => {
+const x = xScale(p.HR);
+const y = yScale(p.z);
+i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+});
+ctx.stroke();
+
+// Points
+profile.forEach(p => {
+const y = yScale(p.z);
+
+ctx.fillStyle = "#f97316";
+ctx.beginPath();
+ctx.arc(xScale(p.extinction), y, 4, 0, Math.PI * 2);
+ctx.fill();
+
+ctx.fillStyle = "#ef4444";
+ctx.beginPath();
+ctx.arc(xScale(p.HR), y, 4, 0, Math.PI * 2);
+ctx.fill();
+});
+}
+
+// -----------------------------
+function drawLegend() {
+ctx.font = "13px sans-serif";
+ctx.fillStyle = "#333";
+
+ctx.fillText("Extinction", margin.left, margin.top - 20);
+ctx.fillStyle = "#f97316";
+ctx.fillRect(margin.left - 20, margin.top - 28, 14, 6);
+
+ctx.fillStyle = "#333";
+ctx.fillText("Heating rate", margin.left + 120, margin.top - 20);
+ctx.fillStyle = "#ef4444";
+ctx.fillRect(margin.left + 100, margin.top - 28, 14, 6);
+}
+
+// -----------------------------
+drawBands();
+drawAxes();
+drawProfiles();
+drawLegend();
+</script>
 <p><br></p>
 <h3 style="border-bottom:none;" class="anchored">
 Overall Contribution
