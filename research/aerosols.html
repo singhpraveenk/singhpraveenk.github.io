@@ -152,7 +152,7 @@ The Himalayas are often called the <strong>“Third Pole”</strong> because the
 <strong>How is air pollution—especially black carbon—changing the future of Himalayan snow and glaciers?</strong>
 </blockquote>
 <p>
-To answer this, I work across the <strong>Hindu Kush Himalayan (HKH) region</strong>, and my research focuses on understanding how <strong>black carbon (BC)</strong> and other light‑absorbing aerosols influence the Hindu Kush Himalayan (HKH) region, one of the world’s most climate‑sensitive mountain systems. Through a combination of <strong>high‑altitude fieldwork, ground-based observations, chemical transport modeling, remote sensing</strong>, and <strong>radiative transfer simulations</strong>, my work quantifies how aerosols are transported, how they modify atmospheric and surface energy budgets, and how they accelerate <strong>snow and glacier melt</strong>.
+To answer this, I work across the <strong>Hindu Kush Himalayan (HKH) region</strong>, and my research focuses on understanding how <strong>black carbon (BC)</strong> and other light‑absorbing aerosols influence this region, one of the world’s most climate‑sensitive mountain systems. Through a combination of <strong>high‑altitude fieldwork, ground-based observations, chemical transport modeling, remote sensing</strong>, and <strong>radiative transfer simulations</strong>, my work quantifies how aerosols are transported, how they modify atmospheric and surface energy budgets, and how they accelerate <strong>snow and glacier melt</strong>.
 </p>
 <p><br></p>
 <h3 style="border-bottom:none;" class="anchored">
@@ -251,12 +251,9 @@ Key findings
 This work improves the representation of aerosol–radiation interactions in climate models and highlights the vulnerability of Himalayan glaciers to elevated aerosol layers.
 <p></p>
 </div>
-<canvas id="aeroCanvas" width="500" height="600" style="max-width: 500px; width: 100%;">
+<canvas id="aeroCanvas" style="width:100%; max-width:500px;">
 </canvas>
 <script>
-// -----------------------------
-// Example JSON data
-// -----------------------------
 const profile = [
   { z: 0, extinction: 0.15, HR: 0.05 },
   { z: 1, extinction: 0.25, HR: 0.08 },
@@ -268,82 +265,92 @@ const profile = [
   { z: 7, extinction: 0.45, HR: 0.12 }
 ];
 
-// -----------------------------
 const c = document.getElementById("aeroCanvas");
 const ctx = c.getContext("2d");
 
-const W = c.width;
-const H = c.height;
+// -----------------------------
+// Responsive resize
+// -----------------------------
+function resizeCanvas() {
+  const rect = c.getBoundingClientRect();
+  c.width = rect.width * window.devicePixelRatio;
+  c.height = rect.width * 1.2 * window.devicePixelRatio; // keep aspect ratio
+  ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+  draw();
+}
 
-const margin = { top: 50, right: 40, bottom: 60, left: 70 };
+window.addEventListener("resize", resizeCanvas);
+resizeCanvas();
 
-const plotW = W - margin.left - margin.right;
-const plotH = H - margin.top - margin.bottom;
+// -----------------------------
+function draw() {
+  ctx.clearRect(0, 0, c.width, c.height);
 
-const zMax = Math.max(...profile.map(p => p.z));
+  const W = c.width / window.devicePixelRatio;
+  const H = c.height / window.devicePixelRatio;
 
-const xScale = v => margin.left + v * plotW;
-const yScale = z => margin.top + plotH - (z / zMax) * plotH;
+  const margin = { top: 50, right: 40, bottom: 60, left: 70 };
+  const plotW = W - margin.left - margin.right;
+  const plotH = H - margin.top - margin.bottom;
+
+  const zMax = Math.max(...profile.map(p => p.z));
+  const xScale = v => margin.left + v * plotW;
+  const yScale = z => margin.top + plotH - (z / zMax) * plotH;
 
 // -----------------------------
 function drawBands() {
-ctx.save();
-ctx.globalAlpha = 0.12;
+  ctx.save();
+  ctx.globalAlpha = 0.12;
 
-// 3–5 km
-ctx.fillStyle = "#facc15";
-ctx.fillRect(margin.left, yScale(5), plotW, yScale(3) - yScale(5));
+  ctx.fillStyle = "#facc15";
+  ctx.fillRect(margin.left, yScale(5), plotW, yScale(3) - yScale(5));
 
-// >5 km
-ctx.fillStyle = "#22c55e";
-ctx.fillRect(margin.left, yScale(zMax), plotW, yScale(5) - yScale(zMax));
+  ctx.fillStyle = "#22c55e";
+  ctx.fillRect(margin.left, yScale(zMax), plotW, yScale(5) - yScale(zMax));
 
-ctx.restore();
+  ctx.restore();
 }
 
 // -----------------------------
 function drawAxes() {
-ctx.strokeStyle = "#666";
-ctx.lineWidth = 1.2;
+  ctx.strokeStyle = "#666";
+  ctx.lineWidth = 1.2;
 
-// Y-axis
-ctx.beginPath();
-ctx.moveTo(margin.left, margin.top);
-ctx.lineTo(margin.left, margin.top + plotH);
-ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(margin.left, margin.top);
+  ctx.lineTo(margin.left, margin.top + plotH);
+  ctx.stroke();
 
-// X-axis
-ctx.beginPath();
-ctx.moveTo(margin.left, margin.top + plotH);
-ctx.lineTo(margin.left + plotW, margin.top + plotH);
-ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(margin.left, margin.top + plotH);
+  ctx.lineTo(margin.left + plotW, margin.top + plotH);
+  ctx.stroke();
 
-// Y ticks (altitude)
-ctx.fillStyle = "#333";
-ctx.font = "13px sans-serif";
-for (let z = 0; z <= zMax; z++) {
-const y = yScale(z);
-ctx.fillText(z + " km", margin.left - 55, y + 4);
-ctx.beginPath();
-ctx.moveTo(margin.left - 5, y);
-ctx.lineTo(margin.left, y);
-ctx.stroke();
+  ctx.fillStyle = "#333";
+  ctx.font = "13px sans-serif";
+  for (let z = 0; z <= zMax; z++) {
+    const y = yScale(z);
+    ctx.fillText(z + " km", margin.left - 55, y + 4);
+    ctx.beginPath();
+    ctx.moveTo(margin.left - 5, y);
+    ctx.lineTo(margin.left, y);
+    ctx.stroke();
 }
 
-// X-axis units
 ctx.font = "12px sans-serif";
 ctx.fillText("0", margin.left - 3, margin.top + plotH + 20);
 ctx.fillText("1.0", margin.left + plotW - 20, margin.top + plotH + 20);
 
-// X-axis label (units)
 ctx.font = "13px sans-serif";
-ctx.fillText("Normalized Extinction (km⁻¹ / max)  &  Heating Rate (K day⁻¹ / max)",
-margin.left, margin.top + plotH + 40);
+ctx.fillText(
+"Normalized Extinction (km⁻¹ / max)  &  Heating Rate (K day⁻¹ / max)",
+margin.left,
+margin.top + plotH + 40
+);
 }
 
 // -----------------------------
 function drawProfiles() {
-// Extinction line
 ctx.strokeStyle = "#f97316";
 ctx.lineWidth = 3;
 ctx.beginPath();
@@ -354,7 +361,6 @@ i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
 });
 ctx.stroke();
 
-// HR line
 ctx.strokeStyle = "#ef4444";
 ctx.lineWidth = 3;
 ctx.beginPath();
@@ -365,7 +371,6 @@ i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
 });
 ctx.stroke();
 
-// Points
 profile.forEach(p => {
 const y = yScale(p.z);
 
@@ -396,11 +401,11 @@ ctx.fillStyle = "#ef4444";
 ctx.fillRect(margin.left + 100, margin.top - 28, 14, 6);
 }
 
-// -----------------------------
 drawBands();
 drawAxes();
 drawProfiles();
 drawLegend();
+}
 </script>
 <p><br></p>
 <h3 style="border-bottom:none;" class="anchored">
