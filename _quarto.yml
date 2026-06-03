@@ -1,6 +1,8 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  render:
+    - "*.qmd"
 
 website:
   title: ""
@@ -17,9 +19,13 @@ website:
   #   position: below-navbar
   back-to-top-navigation: true
   navbar:
+    background: primary
+    pinned: true 
     left:
       - text: "Home"
         href: index.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Research"
         href: research.qmd
       - text: "Publications"
@@ -29,22 +35,18 @@ website:
       location: navbar
       type: overlay
   cookie-consent: false
-        
-
 format:
   html:
-    respect-user-color-scheme: true
+    theme: Flatly
+    #respect-user-color-scheme: true
     page-layout: full
     toc: true
-    grid:
-      margin-width: 14%
-    theme:
-      light: flatly
-      dark: darkly
+    # grid:
+    #   margin-width: 14%
+    css: styles.css
+    mainfont: system-ui
     code-copy: true
     code-overflow: wrap
-    
-
 execute:
   freeze: auto
   enabled: false
