@@ -41,7 +41,7 @@ about:
       target: _blank
       
     - text: "{{< fa file size=2x >}}"
-      href: documents/Resume_Praveen_K_Singh.pdf
+      href: docs/Resume_Praveen_K_Singh.pdf
       target: _blank
 
 ---
