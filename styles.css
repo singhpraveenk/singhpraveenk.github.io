@@ -133,8 +133,10 @@ body.index .about-links img:hover {
   margin: 0 0 0.2rem 0 
 }
 
-.tl-org {
-  color: var(--quarto-font-color);
+.tl-org,
+.tl-org a {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .tl-date {
