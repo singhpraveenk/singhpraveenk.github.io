@@ -196,6 +196,7 @@ body.index .about-links img:hover {
   padding: 1rem;                 /* Add padding since no longer stacked */
   margin-top: 1rem;
   margin-bottom: 1rem;
+  width: 100%; 
 }
 
 
