@@ -232,6 +232,57 @@ body.index .about-links img:hover {
 
 
 
+/* --- Research Interests Card Container --- */
+.research-interest-card {
+  display: flex;                 /* Put image + content side‑by‑side */
+  gap: 1rem;                     /* Space between image and text */
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--quarto-body-bg);
+  border: 1px solid var(--quarto-border-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1rem;                 /* Add padding since no longer stacked */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%; 
+}
+
+
+.research-interest-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* --- Image --- */
+.research-interest-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  flex-shrink: 0;                /* Prevent image from shrinking */
+}
+
+/* --- Content --- */
+.research-interest-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.research-interest-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--quarto-font-color);
+  margin: 0 0 0.0rem 0 
+}
+
+
+
+
+
+
+
 /* --- News Card Container --- */
 .news-card {
   display: flex;                 /* Put image + content side‑by‑side */
@@ -318,6 +369,73 @@ body.index .about-links img:hover {
 }
 
 
+
+
+
+/* --- field-trip Card Container --- */
+.field-trip-card {
+  display: flex;                 /* Put image + content side‑by‑side */
+  gap: 1rem;                     /* Space between image and text */
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--quarto-body-bg);
+  border: 1px solid var(--quarto-border-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1rem;                 /* Add padding since no longer stacked */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%; 
+}
+
+
+.field-trip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* --- Image --- */
+.field-trip-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  flex-shrink: 0;                /* Prevent image from shrinking */
+}
+
+/* --- Content --- */
+.field-trip-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.field-trip-card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--quarto-font-color);
+  margin: 0 0 0.2rem 0 
+}
+
+.field-trip-card-date {
+  font-size: 0.85rem;
+  color: var(--quarto-text-muted);
+  margin-bottom: 0.2rem;
+}
+
+.field-trip-card-desc {
+  font-size: 0.95rem;
+  color: var(--quarto-text);
+  margin-bottom: 0.0rem;
+}
+
+/* --- Dark Mode Enhancements --- */
+@media (prefers-color-scheme: dark) {
+  .field-trip-card {
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  }
+}
 
 
 
