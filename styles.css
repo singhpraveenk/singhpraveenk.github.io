@@ -446,6 +446,12 @@ body.index .about-links img:hover {
 
 /* for publication page */
 
+.pubs {
+  font-size: 0.97rem;   /* adjust: 0.90–1.10 for smaller/larger text */
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
 /* Ensure theme font is preserved */
 .pubs, 
 .pubs p, 
@@ -474,16 +480,16 @@ body.index .about-links img:hover {
 }
 
 /* Year headings: subtle spacing */
-.pubs h4 {
+.pubs h3 {
   margin-top: 1.4em;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Section headings */
-.pubs h5 {
+.pubs h4 {
   margin-top: 1.8em;
   margin-bottom: 0.6em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* DOI link styling */
