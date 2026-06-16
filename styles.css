@@ -210,12 +210,12 @@ body.index .about-links img:hover {
 }
 
 .image-row img:hover {
-  transform: scale(2.5);
+  transform: scale(1.5);
 }
 
 @media (hover: hover) and (pointer: fine) {
   .image-row img:hover {
-    transform: scale(2.5);
+    transform: scale(1.5);
   }
 }
 
