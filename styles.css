@@ -26,7 +26,7 @@ body.index .quarto-title-block .title::after {
   white-space: pre-wrap;
   display: block;
   margin-top: 0.6rem;
-  font-size: 0.95rem;
+  font-size: 1.0rem;
   color: var(--quarto-font-color);
 }
 
