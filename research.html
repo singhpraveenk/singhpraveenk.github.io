@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-71766cca14c3f301a0dc8ec802e129c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +74,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="link-preview.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -280,7 +282,10 @@ More Details
 <h3 class="field-trips anchored">
 Field Visits
 </h3>
-<p><br> <br></p>
+<p><br> Project “Life at the Extremes” of National Geographic Society, USA. More details can be found at Extreme Expedition: Everest <br></p>
+<div class="image-row">
+<p><a href="images/at_Namache.jpg" class="lightbox" data-gallery="everest_expedition" title="The NGS team at Namche Bazar, 3440 m a.s.l."><img src="images/at_Namache.jpg" class="img-fluid" alt="The NGS team at Namche Bazar, 3440 m a.s.l."></a> <a href="images/at_EBC.jpg" class="lightbox" data-gallery="everest_expedition" title="At the Everest base camp, Nepal above 5400 m a.s.l."><img src="images/at_EBC.jpg" class="img-fluid" alt="At the Everest base camp, Nepal above 5400 m a.s.l."></a> <a href="images/snowfall.jpg" class="lightbox" data-gallery="everest_expedition" title="My tent in the morning after a snow storm"><img src="images/snowfall.jpg" class="img-fluid" alt="My tent in the morning after a snow storm"></a></p>
+</div>
 <p><br> <br> <br></p>
 <h3 class="research-news anchored">
 In Media
@@ -799,6 +804,38 @@ In Media
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

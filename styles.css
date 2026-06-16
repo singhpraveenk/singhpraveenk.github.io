@@ -182,6 +182,57 @@ body.index .about-links img:hover {
 
 
 
+<style>
+/* Ensure figure acts as a positioned container */
+.image-row .quarto-figure {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Make sure the image fills the figure */
+.image-row .quarto-figure img {
+  display: block;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;   /* <-- center images */
+  gap: 20px;                 /* spacing between images */
+  padding: 10px 0;
+  margin: 0 auto;            /* <-- center the row block */
+}
+
+.image-row img {
+  height: 250px;                      /* row height */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+  transform-origin: center center;   /* center the zoom */
+}
+
+.image-row img:hover {
+  transform: scale(2.5);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .image-row img:hover {
+    transform: scale(2.5);
+  }
+}
+
+/* Theme-adaptive borders */
+:root[data-theme="light"] .image-row img {
+  border: 1px solid #ddd;
+}
+
+:root[data-theme="dark"] .image-row img {
+  border: 1px solid #444;
+}
+</style>
+
+
+
 
 
 /* --- News Card Container --- */
