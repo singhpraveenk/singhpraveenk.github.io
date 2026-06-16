@@ -181,8 +181,6 @@ body.index .about-links img:hover {
 
 
 
-
-<style>
 /* Ensure figure acts as a positioned container */
 .image-row .quarto-figure {
   position: relative;
@@ -229,7 +227,6 @@ body.index .about-links img:hover {
 :root[data-theme="dark"] .image-row img {
   border: 1px solid #444;
 }
-</style>
 
 
 
