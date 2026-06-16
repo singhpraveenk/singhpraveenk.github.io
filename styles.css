@@ -117,8 +117,9 @@ body.index .about-links img:hover {
 }
 
 .timeline-card:hover {
-  box-shadow: 0 4px 18px var(--quarto-box-shadow, rgba(0,0,0,0.08));
   border-color: var(--quarto-border-color);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px var(--quarto-box-shadow, rgba(0,0,0,0.15));
 }
 
 .timeline-card {
