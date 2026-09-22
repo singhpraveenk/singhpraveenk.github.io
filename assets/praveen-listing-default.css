@@ -1,15 +1,11 @@
 
-
-/* Subtitle */
-.quarto-listing-default .listing-subtitle {
-  font-size: 0.9rem;
-  font-weight: 400;
-  margin-bottom: 0.4rem;
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
 }
-
-/* Description / excerpt */
-.quarto-listing-default .listing-description {
-  font-size: 0.8rem;
-  line-height: 1.5;
+.gallery img:hover {
+  transform: scale(1.03);
 }
-

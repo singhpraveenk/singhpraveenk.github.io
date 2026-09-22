@@ -6,8 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
-<meta name="description" content="contains the research conducted by me">
+<meta name="description" content="My work is covered by various news oulets and listed here.">
 
 <title>News – Praveen Kumar Singh</title>
 <style>
@@ -47,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-a8f7a91d74598f009ca91e74322de4d1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ad882b1b45723da1de3988f61497a53b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-57936fd641291b235f896c3ce3eb31e3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-ad882b1b45723da1de3988f61497a53b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-daadca0b2973a20960144443f1bd812e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9511a3d917702156997fb50857c5930d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-daadca0b2973a20960144443f1bd812e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -88,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-categories','listing-author','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
@@ -333,14 +332,6 @@ window.Quarto = {
     <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../news/index.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../expeditions/index.html"> 
-<span class="menu-text">Expeditions</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -361,14 +352,21 @@ window.Quarto = {
 <main class="content column-page" id="quarto-document-content">
 
 
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- 
 <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<div class="quarto-title"> 
+-->
+<!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
+<!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
+<header id="title-block-header" class="quarto-title-block default page-columns">
+<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
 <h1 class="title">News</h1>
 </div>
 
 <div>
-  <div class="description">
-    <p>contains the research conducted by me</p>
+  <div id="title-block-title-desc" class="description pt-4">
+    <p>My work is covered by various news oulets and listed here.</p>
   </div>
 </div>
 
@@ -380,6 +378,7 @@ window.Quarto = {
     
   </div>
   
+
 
 
 </header>
@@ -401,12 +400,23 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="../news/2025-05-aaj-tak-qbo-collapse-extreme-weather-india-europe/index.html" class="no-external">रिवर्स गियर में हवा, Ice Age जैसा खतरा… भारत से लेकर यूरोप तक मौसम के सितम के पीछे का साइंस</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../news/2025-05-aaj-tak-qbo-collapse-extreme-weather-india-europe/index.html" class="no-external">स्ट्रैटोस्फेरिक QBO टूटने से भारत, यूरोप, अमेरिका और ऑस्ट्रेलिया में मौसम अनियमित</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xpbWF0ZQ=='); return false;">climate</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXh0cmVtZS13ZWF0aGVy'); return false;">extreme-weather</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UUJP'); return false;">QBO</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RyYXRvc3BoZXJl'); return false;">stratosphere</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bW9uc29vbg=='); return false;">monsoon</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5kaWE='); return false;">India</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXVyb3Bl'); return false;">Europe</div>
+
 </div>
-<div class="delink listing-description"><a href="../news/2025-05-aaj-tak-qbo-collapse-extreme-weather-india-europe/index.html" class="no-external">
-<p>Reporting on an early, unusually timed reversal of the stratospheric Quasi-Biennial Oscillation (QBO) in November 2025 — months ahead of its typical January-February shift — and the compound extreme-weather impacts it is linked to across India, Europe, the US, Australia, and Southeast Asia through the 2025-26 season.</p>
-</a></div>
 </div>
 <div class="metadata">
 <a href="../news/2025-05-aaj-tak-qbo-collapse-extreme-weather-india-europe/index.html" class="no-external">
@@ -429,12 +439,27 @@ Richeek Mishra
 <h3 class="no-anchor listing-title">
 <a href="../news/2025-11-aaj-tak-iit-roorkee-upper-ganga-flow-study/index.html" class="no-external">बर्फ पिघलेगी… बारिश बढ़ेगी…गंगा का पानी का फ्लो 50% बढे़गा… अधिक आपदाएं आएंगी, IIT रुड़की के वैज्ञानिकों की स्टडी</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../news/2025-11-aaj-tak-iit-roorkee-upper-ganga-flow-study/index.html" class="no-external">Melting Snow, Rising Rain: IIT Roorkee Study Warns Ganga’s Upper-Basin Flow Could Rise 50%</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xpbWF0ZQ=='); return false;">climate</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHlkcm9sb2d5'); return false;">hydrology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2FuZ2E='); return false;">Ganga</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGltYWxheWE='); return false;">Himalaya</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2xhY2llcnM='); return false;">glaciers</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c25vd21lbHQ='); return false;">snowmelt</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUlUJTIwUm9vcmtlZQ=='); return false;">IIT Roorkee</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q01JUDY='); return false;">CMIP6</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U1BIWSUyMG1vZGVs'); return false;">SPHY model</div>
+
 </div>
-<div class="delink listing-description"><a href="../news/2025-11-aaj-tak-iit-roorkee-upper-ganga-flow-study/index.html" class="no-external">
-<p>Coverage of an IIT Roorkee hydrological modeling study projecting that, by century’s end under high-emissions scenarios, total streamflow in the Upper Ganga sub-basin could rise by roughly 50% (driven mainly by rainfall and glacier melt) even as direct snowmelt contribution falls by about 57% by 2090.</p>
-</a></div>
 </div>
 <div class="metadata">
 <a href="../news/2025-11-aaj-tak-iit-roorkee-upper-ganga-flow-study/index.html" class="no-external">
@@ -457,12 +482,27 @@ Richeek Mishra
 <h3 class="no-anchor listing-title">
 <a href="../news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html" class="no-external">Chamoli Disaster: क्या मौसम की वजह से हो सकता है चमोली जैसा हादसा? IIT’s की स्टडी</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html" class="no-external">Chamoli Disaster: Could Weather Trigger Another Rock-Ice Avalanche Like It?</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xpbWF0ZQ=='); return false;">climate</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hhbW9saQ=='); return false;">Chamoli</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9jay1pY2UlMjBhdmFsYW5jaGU='); return false;">rock-ice avalanche</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGltYWxheWE='); return false;">Himalaya</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUlUJTIwUm9vcmtlZQ=='); return false;">IIT Roorkee</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUlUJTIwRGVsaGk='); return false;">IIT Delhi</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Um9udGklMjBQZWFr'); return false;">Ronti Peak</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VXR0YXJha2hhbmQ='); return false;">Uttarakhand</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlzYXN0ZXI='); return false;">disaster</div>
+
 </div>
-<div class="delink listing-description"><a href="../news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html" class="no-external">
-<p>A 14-slide photo feature on a joint IIT Roorkee-IIT Delhi study (published in the journal Atmosphere) linking a sharp, region-wide temperature drop and rainfall event in the three days before the 7 February 2021 Chamoli rock-ice avalanche and flash flood to the disaster’s trigger, alongside a recap of the event’s known geological sequence and toll.</p>
-</a></div>
 </div>
 <div class="metadata">
 <a href="../news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html" class="no-external">
@@ -485,12 +525,25 @@ Richeek Mishra
 <h3 class="no-anchor listing-title">
 <a href="../news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/index.html" class="no-external">Mt. Everest Ice Loss: दुनिया के सबसे ऊंचे पहाड़ से 32 साल में इतना ग्लेशियर पिघला जितना 2000 साल में बनता</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/index.html" class="no-external">Mt. Everest Ice Loss: The World’s Highest Mountain Has Lost 2,000 Years’ Worth of Ice Since 1990</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xpbWF0ZQ=='); return false;">climate</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW91bnQlMjBFdmVyZXN0'); return false;">Mount Everest</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U291dGglMjBDb2wlMjBHbGFjaWVy'); return false;">South Col Glacier</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGltYWxheWE='); return false;">Himalaya</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2xhY2llcnM='); return false;">glaciers</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUlUJTIwUm9vcmtlZQ=='); return false;">IIT Roorkee</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUNJTU9E'); return false;">ICIMOD</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bnBqJTIwQ2xpbWF0ZSUyMGFuZCUyMEF0bW9zcGhlcmljJTIwU2NpZW5jZQ=='); return false;">npj Climate and Atmospheric Science</div>
+
 </div>
-<div class="delink listing-description"><a href="../news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/index.html" class="no-external">
-<p>A 15-slide photo feature on a 2019 international expedition to Everest’s South Col Glacier (published in npj Climate and Atmospheric Science) finding the glacier is thinning roughly 80 times faster than it took the ice to form, having lost about 2,000 years’ worth of accumulated ice since 1990, alongside a related Nature/University of Leeds study on accelerating Himalaya-wide glacier loss since the Little Ice Age.</p>
-</a></div>
 </div>
 <div class="metadata">
 <a href="../news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/index.html" class="no-external">
@@ -513,12 +566,27 @@ Richeek Mishra
 <h3 class="no-anchor listing-title">
 <a href="../news/2020-03-fire-and-ice-soot-himalayan-glaciers/index.html" class="no-external">Fire and Ice: Soot Darkens Himalayan Glaciers</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../news/2020-03-fire-and-ice-soot-himalayan-glaciers/index.html" class="no-external"></a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YmxhY2slMjBjYXJib24='); return false;">black carbon</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29vdA=='); return false;">soot</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9yZXN0JTIwZmlyZXM='); return false;">forest fires</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y3JvcCUyMGJ1cm5pbmc='); return false;">crop burning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGltYWxheWE='); return false;">Himalaya</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2xhY2llcnM='); return false;">glaciers</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVyYWk='); return false;">Terai</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUNJTU9E'); return false;">ICIMOD</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2FuZ290cmk='); return false;">Gangotri</div>
+
 </div>
-<div class="delink listing-description"><a href="../news/2020-03-fire-and-ice-soot-himalayan-glaciers/index.html" class="no-external">
-<p>Dialogue Earth reporting on how forest fires and crop residue burning in the Terai Arc Landscape and Himalayan foothills deposit black carbon (soot) on Himalayan glaciers, darkening their surface and accelerating melt, drawing on work by ICIMOD researchers including Siva Praveen Puppala and Praveen K Singh, and Wadia Institute scientist P.S. Negi.</p>
-</a></div>
 </div>
 <div class="metadata">
 <a href="../news/2020-03-fire-and-ice-soot-himalayan-glaciers/index.html" class="no-external">
