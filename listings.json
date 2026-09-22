@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/aerosols/index.html",
+      "/research/air_quality/index.html",
+      "/research/chemical_transport_modeling/index.html",
+      "/research/climate_modeling/index.html",
+      "/research/science_policy_interface/index.html",
+      "/research/water/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/2025-05-aaj-tak-qbo-collapse-extreme-weather-india-europe/index.html",
+      "/news/2025-11-aaj-tak-iit-roorkee-upper-ganga-flow-study/index.html",
+      "/news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html",
+      "/news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/index.html",
+      "/news/2020-03-fire-and-ice-soot-himalayan-glaciers/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_10_science_total_environment/index.html",
+      "/publications/2025_06_physics_chemistry_earth/index.html",
+      "/publications/2024_03_emerging_issues_environment_geography_earth_science_vol/index.html",
+      "/publications/2023_03_weather/index.html",
+      "/publications/2023_02_international_journal_environmental_research/index.html",
+      "/publications/2023_02_science_total_environment/index.html",
+      "/publications/2022_03_aerosol_air_quality_research/index.html",
+      "/publications/2022_02_atmosphere/index.html",
+      "/publications/2022_02_npj_climate_atmospheric_science/index.html",
+      "/publications/2021_04_environmental_pollution/index.html",
+      "/publications/2021_01_science_total_environment/index.html",
+      "/publications/2018_08_journal_climate_change/index.html"
+    ]
+  }
+]

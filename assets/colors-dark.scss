@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+$spc-bg-00:           #060a0d; // used for shadow effects
+$spc-bg-0:            #0E171E; // #172530
+$spc-bg-1:            #16242f; // #0E171E #172530 #1F2C36 #1C2A34
+$spc-bg-2:            #1e3241;
+$spc-primary:         #FAF0E3;
+$spc-primary-light:   #FFFBF2;
+$spc-secondary:       #A23E02;
+$spc-secondary-light: #D96E34;
+$spc-accent:          #b9c680;
+$spc-accent-light:    #EEF1E0;
+$spc-accent-dark:     #697935;
+
+/*-- scss:rules --*/
+
+// CSS variables (generated from the SCSS variables above)
+:root {
+  --spc-bg-0: #{$spc-bg-0};
+  --spc-bg-1: #{$spc-bg-1};
+  --spc-bg-2: #{$spc-bg-2};
+  --spc-primary: #{$spc-primary};
+  --spc-primary-light: #{$spc-primary-light};
+  --spc-secondary: #{$spc-secondary};
+  --spc-secondary-light: #{$spc-secondary-light};
+  --spc-accent: #{$spc-accent};
+  --spc-accent-light: #{$spc-accent-light};
+  --spc-accent-dark: #{$spc-accent-dark};
+}
