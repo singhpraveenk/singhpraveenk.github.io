@@ -1,0 +1,15 @@
+
+
+/* Subtitle */
+.quarto-listing-default .listing-subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+}
+
+/* Description / excerpt */
+.quarto-listing-default .listing-description {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
