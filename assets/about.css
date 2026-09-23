@@ -41,7 +41,10 @@
     flex-wrap: wrap;
   }
   
-  #blog, #talks, #publications, #projects {
+  #talks,
+  #expeditions
+  #news
+  #publications {
     flex-basis: 40% !important;
     flex-grow: 1;
   }
@@ -68,10 +71,10 @@
   }
 
   /* listings */
-  #blog,
   #talks,
-  #publications,
-  #projects {
+  #expeditions
+  #news
+  #publications {
     flex-basis: 100% !important;
   }
 
