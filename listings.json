@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/2025_hydrabad/index.html",
+      "/talks/2025_kathmandu/index.html",
+      "/talks/2024_dushanbe/index.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/aerosols/index.html",
@@ -41,7 +49,10 @@
       "/publications/2022_02_npj_climate_atmospheric_science/index.html",
       "/publications/2021_04_environmental_pollution/index.html",
       "/publications/2021_01_science_total_environment/index.html",
-      "/publications/2018_08_journal_climate_change/index.html"
+      "/publications/2018_08_journal_climate_change/index.html",
+      "/talks/2025_hydrabad/index.html",
+      "/talks/2025_kathmandu/index.html",
+      "/talks/2024_dushanbe/index.html"
     ]
   },
   {

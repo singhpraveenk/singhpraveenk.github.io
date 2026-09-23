@@ -39,14 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-a8f7a91d74598f009ca91e74322de4d1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-6d0be63f99caad1d1999c4a0d03ce88f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-a8f7a91d74598f009ca91e74322de4d1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2ee8cfd80de5ffd852b2cae7eefb4420.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-12ad8c75b6122616063db8a77f56c953.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2ee8cfd80de5ffd852b2cae7eefb4420.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eaf6e0376a472437a4f60af5d2668f18.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-0b61b0a0ed8595f9cd4c6d434448e7c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-eaf6e0376a472437a4f60af5d2668f18.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4ee66c2a057c22581dd485ae369d74ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-712050acc08f3f4b1b1d2ea8a3e6d847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-4ee66c2a057c22581dd485ae369d74ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
@@ -150,6 +150,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks'] = new List('listing-talks', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -488,21 +516,37 @@ Hey, I’m glad you’re here
 <section id="lately" class="level2">
 <h2 data-anchor-id="lately">Lately …</h2>
 <div class="grid">
-<!-- ::: {.g-col-3} -->
-<!-- #### Projects -->
-<!-- ::: {#project} -->
-<!-- ::: -->
-<!-- [See all &rarr;](../project){.about-links .subtitle} -->
-<!-- ::: -->
+<section id="talks" class="level4 g-col-3">
+<h4 data-anchor-id="talks">Talks</h4>
+<div id="listing-talks" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="c2NpZW5jZS1wb2xpY3klMjBpbnRlcmZhY2U=" data-listing-date-sort="1761865200000" data-listing-file-modified-sort="1790202609350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../talks/2025_hydrabad/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../talks/2025_hydrabad/KSPP_01.jpeg" class="thumbnail-image card-img" style="height: 160px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Science of Climate Change and Global Warming
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="../talks" class="about-links subtitle">See all →</a></p>
+</section>
 <section id="expeditions" class="level4 g-col-3">
 <h4 data-anchor-id="expeditions">Expeditions</h4>
 <div id="listing-expeditions" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1555711200000" data-listing-file-modified-sort="1790156754686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1555711200000" data-listing-file-modified-sort="1790198813201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <a href="../expeditions/2019_everest/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../expeditions/2019_everest/featured.jpg" class="thumbnail-image card-img" style="height: 160px;">
+<img loading="lazy" src="../expeditions/2019_everest/dingboche.jpg" class="thumbnail-image card-img" style="height: 160px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">

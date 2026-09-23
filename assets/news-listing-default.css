@@ -1,0 +1,13 @@
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
+
