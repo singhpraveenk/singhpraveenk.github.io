@@ -42,8 +42,8 @@
   }
   
   #talks,
-  #expeditions
-  #news
+  #expeditions,
+  #news,
   #publications {
     flex-basis: 40% !important;
     flex-grow: 1;
@@ -72,8 +72,8 @@
 
   /* listings */
   #talks,
-  #expeditions
-  #news
+  #expeditions,
+  #news,
   #publications {
     flex-basis: 100% !important;
   }
