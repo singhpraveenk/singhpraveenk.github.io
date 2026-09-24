@@ -11,3 +11,27 @@
 }
 
 
+#listing-listing .thumbnail {
+  flex: 0 0 320px;          /* fixed thumbnail column width */
+  max-width: 320px;
+}
+#listing-listing .thumbnail-image {
+  width: 100%;
+  height: 180px;            /* 220 × 9/16 keeps the 16:9 source ratio */
+  object-fit: cover;
+  border-radius: 6px;
+}
+@media (max-width: 576px) {
+  #listing-listing .thumbnail { flex-basis: 100%; max-width: 100%; }
+  #listing-listing .thumbnail-image { height: auto; aspect-ratio: 16 / 9; }
+}
+
+
+/* Listing item title (headline) */
+.quarto-listing-default .listing-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+}
+

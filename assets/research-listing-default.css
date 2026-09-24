@@ -1,0 +1,50 @@
+
+/* Center listing content horizontally and vertically */
+.quarto-listing-default .quarto-post {
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+  text-align: center;
+  min-height: 120px;         /* gives room for vertical centering; adjust as needed */
+}
+
+/* Remove the empty right-hand metadata column in listings */
+.quarto-listing-default .quarto-post .metadata {
+  display: none;
+}
+
+.quarto-listing-default .quarto-post .body {
+  flex-basis: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: let the listing use the full page width */
+#listing-listing,
+.quarto-listing-default {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Center the category chips */
+.quarto-listing-default .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+
+
+.quarto-listing-default .quarto-post .body {
+  gap: 0.75rem;   /* space between title and categories */
+}
+
+.quarto-listing-default .listing-title {
+  margin: 0;
+}
+
+
