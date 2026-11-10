@@ -1,0 +1,13 @@
+index.html export-ignore
+**/about/ export-ignore
+**/assets/ export-ignore
+**/cv/ export-ignore
+**/expeditions/ export-ignore
+**/images/ export-ignore
+**/includes/ export-ignore
+**/news/ export-ignore
+**/privacy/ export-ignore
+**/publications/ export-ignore
+**/research/ export-ignore
+**/talks/ export-ignore
+
