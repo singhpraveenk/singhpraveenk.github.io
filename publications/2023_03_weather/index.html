@@ -63,6 +63,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-ded8abf19d4ae73377a7679f3d8daafb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,14 +98,16 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Insights from the first winter weather observations near Mount Everest’s summit">
 <meta property="og:description" content="First winter weather observations near Mount Everest’s summit (2019-2021): extreme wind chill, rapid frostbite risk and high sublimation rates.">
-<meta property="og:image" content="https://singhpraveenk.github.io/publications/2023_03_weather/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:image" content="https://singhpraveenk.github.io/publications/2023_03_weather/key-figure.jpg">
 <meta property="og:site_name" content="Praveen Kumar Singh">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Box plots of monthly air temperature, wind chill temperature and facial frostbite time at the summit of Mount Everest, May 2019 to April 2020">
 <meta name="twitter:title" content="Insights from the first winter weather observations near Mount Everest’s summit">
 <meta name="twitter:description" content="First winter weather observations near Mount Everest’s summit (2019-2021): extreme wind chill, rapid frostbite risk and high sublimation rates.">
-<meta name="twitter:image" content="https://singhpraveenk.github.io/publications/2023_03_weather/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:image" content="https://singhpraveenk.github.io/publications/2023_03_weather/key-figure.jpg">
 <meta name="twitter:creator" content="@singhpraveenk_">
 <meta name="twitter:site" content="@singhpraveenk_">
+<meta name="twitter:image:alt" content="Box plots of monthly air temperature, wind chill temperature and facial frostbite time at the summit of Mount Everest, May 2019 to April 2020">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://singhpraveenk.github.io/publications/2023_03_weather/">
 <meta name="citation_title" content="Insights from the first winter weather observations near Mount Everest&amp;amp;#039;s summit">
@@ -388,6 +393,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
 <a href="https://doi.org/10.1002/wea.4374" class="btn btn-secondary text-capitalize" target="_blank" rel="noopener"><i class="bi bi-file-richtext-fill me-1"></i> Publication</a>
+<a href="Sherpa-2023-Weather-Everest-summit-winter-observations.pdf" class="btn btn-secondary text-capitalize" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf-fill me-1"></i> PDF</a>
 </div>
 
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -411,6 +417,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>The highest reaches of our planet experience some of the most extreme weather on Earth and hold very significant supplies of freshwater for communities downstream. However, we know very little of the meteorological detail about this high-altitude frontier. We address this here with new winter weather observations from the upper reaches of Mount Everest (2019–2021). We show that substantial sublimation rates are possible, with losses up to 2.5 mm day<sup>−1</sup>. Wind chill plunging to −83°C and frostbite possible in less than one minute also attest to the severe cold stress facing mountaineers attempting winter ascents of this most iconic peak.</p>
+</section>
+<section id="key-figure" class="level2">
+<h2 class="anchored" data-anchor-id="key-figure">Key figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="key-figure.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Fig. 2 from Sherpa et al.&nbsp;(2023): daily mean air temperature (T), wind chill temperature (WCT) and facial frostbite time (FFT) estimated at the summit of Mount Everest; the shaded band marks winter. © 2023 Royal Meteorological Society."><img src="key-figure.jpg" class="img-fluid figure-img" alt="Box plots of monthly air temperature, wind chill temperature and facial frostbite time at the summit of Mount Everest, May 2019 to April 2020"></a></p>
+<figcaption>Fig. 2 from Sherpa et al.&nbsp;(2023): daily mean air temperature (T), wind chill temperature (WCT) and facial frostbite time (FFT) estimated at the summit of Mount Everest; the shaded band marks winter. © 2023 Royal Meteorological Society.</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -836,7 +851,7 @@ ul.task-list li input[type="checkbox"] {
 <p>© 2026 Praveen Kumar Singh</p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="researchgate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="x" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
+<p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="X (Twitter)" aria-label="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
 </div>
     <div class="nav-footer-right">
 <div class="office-address">
@@ -845,6 +860,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

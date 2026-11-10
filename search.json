@@ -18,7 +18,7 @@
     "href": "research/water/index.html",
     "title": "Climate Change, Snow Hydrology, Snowmelt Modeling & Regional Water Balance",
     "section": "",
-    "text": "Back to top"
+    "text": "Snow, ice and the water that flows from them\nThe rivers that start in the Hindu Kush Himalaya, including the Ganga, Indus and Brahmaputra, support around a billion people. How much water they carry, and when, depends on rain, seasonal snowmelt and glacier melt, all of which are changing with the climate. My work connects what happens on the snow and ice surface to the water budget of entire river basins.\n\nFuture river flow in the upper Ganga\nUsing the SPHY hydrological model driven by CMIP6 climate scenarios (SSP2-4.5 and SSP5-8.5), calibrated at Devprayag, we projected how the snow-dominated upper Ganga basin will respond to climate change. Under the high-emission scenario, total river flow could rise by about 50% by the end of the century, driven mainly by more rainfall runoff, while the snowmelt contribution is projected to fall by more than half.\n\n\nGlaciers at the top of the world\nFieldwork on Mount Everest during the 2019 National Geographic and Rolex Perpetual Planet Expedition showed that even the highest glacier on Earth, the South Col Glacier (8,020 m), is losing mass rapidly through melting and sublimation now that its snow cover has disappeared. Winter weather observations near the summit confirm that sublimation can remove up to 2.5 mm of water equivalent per day.\n\n\nSnow and stream chemistry\nSnow, stream and ice-core samples from the Khumbu region record both natural dust and human-sourced metals, providing a baseline for monitoring water quality as tourism and pollution increase.\nTools: SPHY and SRM hydrological models, COSIPY and DEBAM glacier energy and mass balance models, SNICAR snow albedo model, DGPS glacier surveys, Google Earth Engine.\n\n\nRelated publications\n\nClimate change impact assessment on the river discharge of the upper Ganga subbasin · Physics and Chemistry of the Earth, 2025\nMt. Everest’s highest glacier is a sentinel for accelerating ice loss · npj Climate and Atmospheric Science, 2022\nInsights from the first winter weather observations near Mount Everest’s summit · Weather, 2023\nA case study using 2019 pre-monsoon snow and stream chemistry in the Khumbu region, Nepal · Science of the Total Environment, 2021\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "research/index.html",
@@ -32,7 +32,7 @@
     "href": "research/chemical_transport_modeling/index.html",
     "title": "Atmospheric Chemistry & Chemical Transport Modeling",
     "section": "",
-    "text": "Back to top"
+    "text": "Following pollutants from source to receptor\nObservations tell us what is in the air; chemistry-transport models help explain why. By simulating emissions, chemistry, transport and deposition together, models let us ask questions that measurements alone cannot answer: where the pollution reaching a glacier came from, which sectors matter most, and what would change if emissions were cut.\n\nWhat I work on\nAt the Laboratoire de Météorologie Dynamique (LMD-IPSL), I use the CHIMERE chemistry-transport model, driven by WRF meteorology, to study how emissions, meteorology and climate interact to shape air quality over South and Southeast Asia. A recurring challenge in this region is the complex terrain: deep valleys and shallow boundary layers can trap pollution, while mountain winds carry it to high altitudes.\nEarlier, I used WRF-Chem simulations with tagged tracers to attribute black carbon measured near Yala Glacier (4,900 m, Nepal) to source regions and sectors. Combined with in-situ absorption Ångström exponent analysis, this showed that most of the black carbon came from anthropogenic sources, mainly in Nepal and India.\n\n\nEmission inventories\nModels are only as good as their emissions. I work with gridded inventories such as EDGAR and CAMS — for example, to reconstruct decadal trends and sources of methane emissions in the Eastern Himalaya.\nTools: CHIMERE, WRF-Chem, WRF, EDGAR and CAMS emission inventories, ERA5 reanalysis, Python, CDO and NCO on HPC systems.\n\n\nRelated publications\n\nBlack carbon concentration in the central Himalayas: impact on glacier melt and potential source contribution · Environmental Pollution, 2021\nDecadal changes in atmospheric methane emissions in the Eastern Himalayan region: source apportionment and impact assessment · International Journal of Environmental Research, 2023\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "research/aerosols/index.html",
@@ -77,6 +77,13 @@
     "text": "The highest reaches of our planet experience some of the most extreme weather on Earth and hold very significant supplies of freshwater for communities downstream. However, we know very little of the meteorological detail about this high-altitude frontier. We address this here with new winter weather observations from the upper reaches of Mount Everest (2019–2021). We show that substantial sublimation rates are possible, with losses up to 2.5 mm day−1. Wind chill plunging to −83°C and frostbite possible in less than one minute also attest to the severe cold stress facing mountaineers attempting winter ascents of this most iconic peak."
   },
   {
+    "objectID": "publications/2023_03_weather/index.html#key-figure",
+    "href": "publications/2023_03_weather/index.html#key-figure",
+    "title": "Insights from the first winter weather observations near Mount Everest’s summit",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nFig. 2 from Sherpa et al. (2023): daily mean air temperature (T), wind chill temperature (WCT) and facial frostbite time (FFT) estimated at the summit of Mount Everest; the shaded band marks winter. © 2023 Royal Meteorological Society."
+  },
+  {
     "objectID": "publications/2023_02_international_journal_environmental_research/index.html",
     "href": "publications/2023_02_international_journal_environmental_research/index.html",
     "title": "Decadal Changes in Atmospheric Methane Emissions in the Eastern Himalayan Region: Source Apportionment and Impact Assessment",
@@ -105,6 +112,13 @@
     "text": "Mountain glacier systems are decreasing in volume worldwide yet relatively little is known about their upper reaches (&gt;5000 m). Here we show, based on the world’s highest ice core and highest automatic weather stations, the significant and increasing role that melting and sublimation have on the mass loss of even Mt. Everest’s highest glacier (South Col Glacier, 8020 m). Estimated contemporary thinning rates approaching ~2 m a-1 water equivalent (w.e.) indicate several decades of accumulation may be lost on an annual basis now that glacier ice has been exposed. These results identify extreme sensitivity to glacier surface type for high altitude Himalayan ice masses and forewarn of rapidly emerging impacts as Mt. Everest’s highest glacier appears destined for rapid retreat."
   },
   {
+    "objectID": "publications/2022_02_npj_climate_atmospheric_science/index.html#key-figure",
+    "href": "publications/2022_02_npj_climate_atmospheric_science/index.html#key-figure",
+    "title": "Mt. Everest’s highest glacier is a sentinel for accelerating ice loss",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nFig. 1 from Potocki et al. (2022): South Col Glacier, with the ice-core site (red arrow) and Balcony weather station (yellow arrow). Photo: Mariusz Potocki. Reproduced under CC BY 4.0."
+  },
+  {
     "objectID": "publications/2021_04_environmental_pollution/index.html",
     "href": "publications/2021_04_environmental_pollution/index.html",
     "title": "Black carbon concentration in the central Himalayas: Impact on glacier melt and potential source contribution",
@@ -117,6 +131,13 @@
     "title": "Black carbon concentration in the central Himalayas: Impact on glacier melt and potential source contribution",
     "section": "",
     "text": "This study discusses year-long (October 2016–September 2017) observations of atmospheric black carbon (BC) mass concentration, its source and sector contributions using a chemical transport model at a high-altitude (28°12′49.21″N, 85°36′33.77″E, 4900 masl) site located near the Yala Glacier in the central Himalayas, Nepal. During a field campaign, fresh snow samples were collected from the surface of the Yala Glacier in May 2017, which were analysed for BC and water-insoluble organic carbon mass concentration in order to estimate the scavenging ratio and surface albedo reduction. The maximum BC mass concentration in the ambient atmosphere (0.73 μg m−3) was recorded in the pre-monsoon season. The BC and water-insoluble organic carbon analysed from the snow samples were in the range of 96–542 ng g−1 and 152–827 ng g−1, respectively. The source apportionment study using the absorption Ångström exponent from in situ observations indicated approximately 44% contribution of BC from biomass-burning sources and the remainder from fossil-fuel sources during the entire study period. The source contribution study, using model data sets, indicated ∼14% contribution of BC from open-burning and ∼77% from anthropogenic sources during the study period. Our analysis of regional contributions of BC indicated that the highest contribution was from both Nepal and India combined, followed by China, while the rest was distributed among the nearby countries. The surface snow albedo reduction, estimated by an online model – Snow, Ice, and Aerosol Radiation – was in the range of 0.8–3.8% during the pre-monsoon season. The glacier mass balance analysis suggested that BC contributed to approximately 39% of the total mass loss in the pre-monsoon season."
+  },
+  {
+    "objectID": "publications/2021_04_environmental_pollution/index.html#key-figure",
+    "href": "publications/2021_04_environmental_pollution/index.html#key-figure",
+    "title": "Black carbon concentration in the central Himalayas: Impact on glacier melt and potential source contribution",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nFig. 1 from Gul et al. (2021): study area in the Langtang catchment, Nepal, and (b) the high-altitude black carbon station near Yala Glacier. Reproduced under CC BY-NC-ND 4.0."
   },
   {
     "objectID": "publications/2018_08_journal_climate_change/index.html",
@@ -242,7 +263,7 @@
     "href": "about/index.html",
     "title": "Praveen Kumar Singh",
     "section": "",
-    "text": "Hey, I’m glad you’re here\n\nThanks for stopping by!\nI’m a Postdoctoral Research Scientist at the Laboratoire de Météorologie Dynamique (LMD) - IPSL, where I study how atmospheric pollutants interact with meteorology and climate across South and Southeast Asia. But if you’d told the 2011 version of me - freshly graduated in electronics and communication engineering, about to spend a year working on telecom systems in Eastern India - that I’d eventually be chasing black carbon up in the Himalayas, I don’t think he’d have believed you.\nMost of my work orbits one question: what happens when short-lived climate pollutants - black carbon especially - meet the world’s most climate-sensitive mountain system? I trace how these particles travel, deposit, and reshape radiative forcing across the Hindu Kush Himalaya, and what that means for glacier melt, snow albedo, and the water resources millions of people downstream depend on."
+    "text": "X (Twitter)\n  \n  \n     Email\n  \n\n  \n  \n\nHey, I’m glad you’re here\n\nThanks for stopping by!\nI’m a Postdoctoral Research Scientist at the Laboratoire de Météorologie Dynamique (LMD) - IPSL, where I study how atmospheric pollutants interact with meteorology and climate across South and Southeast Asia. But if you’d told the 2011 version of me - freshly graduated in electronics and communication engineering, about to spend a year working on telecom systems in Eastern India - that I’d eventually be chasing black carbon up in the Himalayas, I don’t think he’d have believed you.\nMost of my work orbits one question: what happens when short-lived climate pollutants - black carbon especially - meet the world’s most climate-sensitive mountain system? I trace how these particles travel, deposit, and reshape radiative forcing across the Hindu Kush Himalaya, and what that means for glacier melt, snow albedo, and the water resources millions of people downstream depend on."
   },
   {
     "objectID": "about/index.html#about-me",
@@ -277,7 +298,7 @@
     "href": "index.html",
     "title": "Praveen Kumar Singh, PhD",
     "section": "",
-    "text": "I am dedicated to understanding the complex and rapidly evolving interactions between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan region. Learn more about me →\n\n    \n    \n  \n\n\n\n\n\n\n\n Back to top"
+    "text": "X (Twitter)\n  \n  \n     Email\n  \n\n      \nI am dedicated to understanding the complex and rapidly evolving interactions between air quality, climate change, and cryospheric processes across the Hindu Kush Himalayan region.\nAt the Laboratoire de Météorologie Dynamique (LMD-IPSL), École Polytechnique, I combine high-altitude fieldwork, satellite remote sensing, and chemistry-transport and climate models to study how black carbon and other air pollutants travel, deposit, and affect glaciers, water resources, and air quality across South and Southeast Asia.\nLearn more about me →\n\n    \n    \n  \n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/index.html",
@@ -364,6 +385,13 @@
     "text": "This case study provides a framework for future monitoring and evidence for human source pollution in the Khumbu region, Nepal. We analyzed the chemical composition (major ions, major/trace elements, black carbon, and stable water isotopes) of pre-monsoon stream water (4300–5250 m) and snow (5200–6665 m) samples collected from Mt. Everest, Mt. Lobuche, and the Imja Valley during the 2019 pre-monsoon season, in addition to a shallow ice core recovered from the Khumbu Glacier (5300 m). In agreement with previous work, pre-monsoon aerosol deposition is dominated by dust originating from western sources and less frequently by transport from southerly air mass sources as demonstrated by evidence of one of the strongest recorded pre-monsoon events emanating from the Bay of Bengal, Cyclone Fani. Elevated concentrations of human-sourced metals (e.g., Pb, Bi, As) are found in surface snow and stream chemistry collected in the Khumbu region. As the most comprehensive case study of environmental chemistry in the Khumbu region, this research offers sufficient evidence for increased monitoring in this watershed and surrounding areas."
   },
   {
+    "objectID": "publications/2021_01_science_total_environment/index.html#key-figure",
+    "href": "publications/2021_01_science_total_environment/index.html#key-figure",
+    "title": "A case study using 2019 pre-monsoon snow and stream chemistry in the Khumbu region, Nepal",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nGraphical abstract from Clifford et al. (2021): snow, stream and ice-core sampling sites in the Khumbu region, with lead (Pb) concentrations. Reproduced under CC BY 4.0."
+  },
+  {
     "objectID": "publications/2022_02_atmosphere/index.html",
     "href": "publications/2022_02_atmosphere/index.html",
     "title": "7 February Chamoli (Uttarakhand, India) Rock-Ice Avalanche Disaster: Model-Simulated Prevailing Meteorological Conditions",
@@ -378,6 +406,13 @@
     "text": "The present study aims to analyze the high-resolution model-simulated meteorological conditions during the Chamoli rock-ice avalanche event, which occurred on 7 February 2021 in the Chamoli district of Uttarakhand, India (30.37° N, 79.73° E). The Weather Research and Forecasting (WRF) model is used to simulate the spatiotemporal distribution of meteorological variables pre- and post-event. The numerical simulations are carried out over two fine resolution nested model domains covering the Uttarakhand region over a period of 2 weeks (2 February to 13 February 2021). The model-simulated meteorological variables, e.g., air temperature, surface temperature, turbulent heat flux, radiative fluxes, heat and momentum transfer coefficients, specific humidity and upper wind patterns, were found to show significant departures from their usual patterns starting from 72 h until a few hours before the rock-ice avalanche event. The average 2 m air and surface temperatures near the avalanche site during the 48 h before the event were found to be much lower than the average temperatures post-event. In-situ observations and the ERA5-Land dataset also confirm these findings. The total turbulent heat flux mostly remained downward (negative) in the 72 h before the event and was found to have an exceptionally large negative value a few hours before the rock-ice avalanche event. The model-simulated rainfall and Global Precipitation Measurement (GPM, IMERG)-derived rainfall suggest that the part of the Himalayan region falling in the simulation domain received a significant amount of rainfall on 4 February, around 48 h prior to the event, while the rest of the days pre- and post-event were mostly dry. The results presented here might be helpful in further studies to identify the possible trigger factors of this event."
   },
   {
+    "objectID": "publications/2022_02_atmosphere/index.html#key-figure",
+    "href": "publications/2022_02_atmosphere/index.html#key-figure",
+    "title": "7 February Chamoli (Uttarakhand, India) Rock-Ice Avalanche Disaster: Model-Simulated Prevailing Meteorological Conditions",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nPanels from Fig. 6 of Srivastava et al. (2022): 2 m air temperature from ERA5-Land and WRF for 4–6 February 2021, and their difference. The star marks the disaster site. Reproduced under CC BY 4.0."
+  },
+  {
     "objectID": "publications/2022_03_aerosol_air_quality_research/index.html",
     "href": "publications/2022_03_aerosol_air_quality_research/index.html",
     "title": "Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia",
@@ -390,6 +425,13 @@
     "title": "Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia",
     "section": "",
     "text": "South Asia is a hotspot of air pollution with limited resilience and hence, understanding the mitigation potential of different sources is critically important. In this context the country lockdown initiated to combat the COVID-19 pandemic (during March and April 2020 that is the pre-monsoon season) provides an unique opportunity for studying the relative impacts of different emission sources in the region. Here, we analyze changes in levels of air quality species across the region during selected lockdown periods using satellite and in-situ datasets. This analysis compares air quality levels during the lockdown against pre-lockdown conditions as well as against regional long-term mean. Satellite derived AOD, NO2, and CO data indicates an increase of 9.5%, 2%, and 2.6%, respectively, during the 2020 lockdown period compared to pre-lockdown over the South Asia domain. However, individual country statistics, urban site data, and industrial grid analysis within the region indicate a more varied picture. Cities with high traffic loads reported a reduction of 12–39% in columnar NO2 during lockdown, in-situ PM2.5 measurements indicate a 23–56% percent reduction over the country capitals and columnar SO2 has an approximate reduction of 50% over industrial areas. In contrast, pollutant emissions from natural sources e.g., from biomass burning were observed to be adversely affecting the air quality in this period potentially masking expected lockdown related air quality improvements. This study demonstrates the need for a more nuanced and situation specific understanding of sources of air pollutants (anthropogenic and natural) and for these sources to be better understood from the local to the regional scale. Without this deeper understanding, mitigation strategies cannot be effectively targeted, wasting limited resources as well as risking unintended consequences both for the atmosphere and how mitigation action is perceived by the wider public."
+  },
+  {
+    "objectID": "publications/2022_03_aerosol_air_quality_research/index.html#key-figure",
+    "href": "publications/2022_03_aerosol_air_quality_research/index.html#key-figure",
+    "title": "Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia",
+    "section": "Key figure",
+    "text": "Key figure\n\n\n\nPanels from Fig. 1 of Upadhyay et al. (2022): satellite AOD, NO2 and SO2 over South Asia, long-term mean vs. the 2020 lockdown (25 March–30 April), and their difference. Reproduced under CC BY 4.0."
   },
   {
     "objectID": "publications/2023_02_science_total_environment/index.html",
@@ -445,21 +487,21 @@
     "href": "research/air_quality/index.html",
     "title": "Regional & Urban Air Quality",
     "section": "",
-    "text": "Back to top"
+    "text": "Understanding air pollution from the regional scale down to the city\nAir pollution in South Asia does not stop at borders. Smoke from crop-residue and forest fires, emissions from traffic, brick kilns, industry and household fuels, and windblown dust are carried by seasonal winds from the Indo-Gangetic Plain into Himalayan valleys and up to the glaciers. I study air quality at two scales: the regional picture, built from satellites, ground stations and models, and the city scale, where clean-air decisions are actually made.\n\nRegional air quality\nThe COVID-19 lockdown of spring 2020 offered a rare natural experiment. Using satellite aerosol optical depth, NO₂, SO₂ and CO (MODIS, OMI, TROPOMI) together with ground PM₂.₅ and PM₁₀ measurements in Nepal, we compared the lockdown weeks with previous years to separate the effect of reduced local emissions from that of forest fires and long-range transport, and to estimate how much mitigation could realistically achieve in the region.\nLong-term black carbon monitoring across Nepal and Bhutan has also shown how valley meteorology, rapid urbanization and transported pollution combine to produce some of the highest concentrations in the region, in Kathmandu and other mid-altitude valleys.\n\n\nCity-scale action\nAs Senior Program Associate – Air Quality at WRI India (2024–2026), I worked with the Gorakhpur city administration on sector-wise pollution reduction strategies for transport, waste, industry and household energy, turning scientific analysis into measures that officials could put in place.\nMethods: satellite remote sensing, ground-based PM and black carbon monitoring, source apportionment, back-trajectory and concentration-weighted trajectory analysis.\n\n\nRelated publications\n\nLearnings from COVID-19 forced lockdown on regional air quality and mitigation potential for South Asia · Aerosol and Air Quality Research, 2022\nVariability of ambient black carbon concentration in the Central Himalaya and its assessment over the Hindu Kush Himalayan region · Science of the Total Environment, 2023\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "research/climate_modeling/index.html",
     "href": "research/climate_modeling/index.html",
     "title": "Global & Regional Climate Modeling",
     "section": "",
-    "text": "Back to top"
+    "text": "Modelling climate in the world’s highest mountains\nThe Hindu Kush Himalaya is one of the most climate-sensitive regions on Earth, yet its steep terrain makes it one of the hardest to model. Global models are too coarse to resolve individual valleys and ridges, and observations at high altitude are scarce. My work uses a range of models, from global to kilometre scale, and tests them against the observations we do have.\n\nGlobal and regional climate models\nDuring my PhD at IIT Roorkee, I set up and ran the regional climate model RegCM4.7 and NASA’s GISS ModelE2.1 general circulation model on the PARAM Ganga supercomputer to study black carbon and its radiative impacts over the Hindu Kush Himalaya. I also evaluated how well CMIP5 and CMIP6 models reproduce observed precipitation and temperature trends over Himalayan sub-regions (1981–2014) compared with ERA5 reanalysis.\n\n\nHigh-resolution weather modelling\nAt the kilometre scale, I have used the WRF model to reconstruct the meteorological conditions around the 7 February 2021 Chamoli rock-ice avalanche in Uttarakhand. The simulations showed an unusual drop in temperature and a rainfall event in the days before the disaster, signals that could be useful for anticipating similar hazards.\n\n\nObserving the extremes\nModels need data from the places they struggle with most. I contributed to observations from the world’s highest weather stations near the summit of Mount Everest, which reveal extreme wind chill, rapid frostbite risk and strong sublimation, and help constrain how models represent high-altitude climate.\nTools: RegCM4.7, GISS ModelE2.1, WRF, CMIP5/CMIP6 output, ERA5, SBDART radiative transfer, Python and MATLAB on HPC systems.\n\n\nRelated publications\n\n7 February Chamoli (Uttarakhand, India) rock-ice avalanche disaster: model-simulated prevailing meteorological conditions · Atmosphere, 2022\nSimulation of meteorological conditions using a high-resolution model, case study: Chamoli rock-ice avalanche event · book chapter, 2024\nInsights from the first winter weather observations near Mount Everest’s summit · Weather, 2023\nMt. Everest’s highest glacier is a sentinel for accelerating ice loss · npj Climate and Atmospheric Science, 2022\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "research/science_policy_interface/index.html",
     "href": "research/science_policy_interface/index.html",
     "title": "Science–Policy Interface",
     "section": "",
-    "text": "Back to top"
+    "text": "Turning evidence into action\nResearch on air pollution and climate only makes a difference when it reaches the people who make decisions. As my work on black carbon and air quality in the Himalaya increasingly touched on questions of regulation and governance, I trained in environmental law and policy and moved into roles where science meets implementation.\n\nTraining in environmental law and policy\nI hold a Post Graduate Diploma in Environmental Law and Policy from National Law University Delhi (2022), which gave me a working understanding of how environmental regulation is designed, enforced and contested in India.\n\n\nWorking with city governments\nAt WRI India (2024–2026), I worked directly with the Gorakhpur city administration in Uttar Pradesh to develop pollution reduction strategies across transport, waste, industry and household energy. Much of the work involved translating scientific analyses into measures that municipal officials could adopt and track.\n\n\nSharing science\nI speak about climate and air pollution with policy and public audiences, including a keynote at the regional meeting on Understanding the Impact of Sand and Dust Storms on Glaciers in the Asia-Pacific Region, organized by APDIM in Dushanbe, Tajikistan (2024), and a guest lecture on the science of climate change and global warming at the Kautilya School of Public Policy, Hyderabad (2025). My research has also been covered in national and international media, including Aaj Tak and Dialogue Earth.\n\n\nRelated work\n\nTalks\nNews and media coverage\nLearnings from COVID-19 forced lockdown on regional air quality and mitigation potential for South Asia · Aerosol and Air Quality Research, 2022\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "talks/2024_dushanbe/index.html",

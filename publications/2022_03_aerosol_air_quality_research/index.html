@@ -60,6 +60,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-ded8abf19d4ae73377a7679f3d8daafb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -92,14 +95,16 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia">
 <meta property="og:description" content="Satellite and in-situ data on how the 2020 COVID-19 lockdown changed air quality across South Asia, and what it reveals about mitigation potential.">
-<meta property="og:image" content="https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:image" content="https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/key-figure.jpg">
 <meta property="og:site_name" content="Praveen Kumar Singh">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Satellite maps of AOD, NO2 and SO2 over South Asia: long-term mean, 2020 lockdown mean, and the difference">
 <meta name="twitter:title" content="Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia">
 <meta name="twitter:description" content="Satellite and in-situ data on how the 2020 COVID-19 lockdown changed air quality across South Asia, and what it reveals about mitigation potential.">
-<meta name="twitter:image" content="https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:image" content="https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/key-figure.jpg">
 <meta name="twitter:creator" content="@singhpraveenk_">
 <meta name="twitter:site" content="@singhpraveenk_">
+<meta name="twitter:image:alt" content="Satellite maps of AOD, NO2 and SO2 over South Asia: long-term mean, 2020 lockdown mean, and the difference">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/">
 <meta name="citation_title" content="Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia">
@@ -376,6 +381,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
 <a href="https://doi.org/10.4209/aaqr.210376" class="btn btn-secondary text-capitalize" target="_blank" rel="noopener"><i class="bi bi-file-richtext-fill me-1"></i> Publication</a>
+<a href="Upadhyay-2022-AAQR-COVID-19-lockdown-air-quality-South-Asia.pdf" class="btn btn-secondary text-capitalize" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf-fill me-1"></i> PDF</a>
 </div>
 
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -399,6 +405,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>South Asia is a hotspot of air pollution with limited resilience and hence, understanding the mitigation potential of different sources is critically important. In this context the country lockdown initiated to combat the COVID-19 pandemic (during March and April 2020 that is the pre-monsoon season) provides an unique opportunity for studying the relative impacts of different emission sources in the region. Here, we analyze changes in levels of air quality species across the region during selected lockdown periods using satellite and in-situ datasets. This analysis compares air quality levels during the lockdown against pre-lockdown conditions as well as against regional long-term mean. Satellite derived AOD, NO2, and CO data indicates an increase of 9.5%, 2%, and 2.6%, respectively, during the 2020 lockdown period compared to pre-lockdown over the South Asia domain. However, individual country statistics, urban site data, and industrial grid analysis within the region indicate a more varied picture. Cities with high traffic loads reported a reduction of 12–39% in columnar NO2 during lockdown, in-situ PM2.5 measurements indicate a 23–56% percent reduction over the country capitals and columnar SO2 has an approximate reduction of 50% over industrial areas. In contrast, pollutant emissions from natural sources e.g., from biomass burning were observed to be adversely affecting the air quality in this period potentially masking expected lockdown related air quality improvements. This study demonstrates the need for a more nuanced and situation specific understanding of sources of air pollutants (anthropogenic and natural) and for these sources to be better understood from the local to the regional scale. Without this deeper understanding, mitigation strategies cannot be effectively targeted, wasting limited resources as well as risking unintended consequences both for the atmosphere and how mitigation action is perceived by the wider public.</p>
+</section>
+<section id="key-figure" class="level2">
+<h2 class="anchored" data-anchor-id="key-figure">Key figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="key-figure.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Panels from Fig. 1 of Upadhyay et al.&nbsp;(2022): satellite AOD, NO2 and SO2 over South Asia, long-term mean vs.&nbsp;the 2020 lockdown (25 March–30 April), and their difference. Reproduced under CC BY 4.0."><img src="key-figure.jpg" class="img-fluid figure-img" alt="Satellite maps of AOD, NO2 and SO2 over South Asia: long-term mean, 2020 lockdown mean, and the difference"></a></p>
+<figcaption>Panels from Fig. 1 of Upadhyay et al.&nbsp;(2022): satellite AOD, NO<sub>2</sub> and SO<sub>2</sub> over South Asia, long-term mean vs.&nbsp;the 2020 lockdown (25 March–30 April), and their difference. Reproduced under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -824,7 +839,7 @@ ul.task-list li input[type="checkbox"] {
 <p>© 2026 Praveen Kumar Singh</p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="researchgate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="x" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
+<p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="X (Twitter)" aria-label="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
 </div>
     <div class="nav-footer-right">
 <div class="office-address">
@@ -833,6 +848,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
