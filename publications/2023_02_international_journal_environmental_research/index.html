@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -81,8 +84,54 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":"",
+"website_privacy_policy_url":"/privacy/"
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <meta name="google-site-verification" content="21HTLRUUqa77aqAadEKEZb5Clq_9boI-D8QFOGfolj0">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<style>
+  .termsfeed-com---palette-light .cc-nb-okagree,.termsfeed-com---palette-light .cc-cp-foot-save{background-color:#A8325A!important;color:#fff!important}
+  .termsfeed-com---palette-light .cc-nb-reject{background-color:#0B3C49!important;color:#fff!important}
+  .termsfeed-com---palette-light .cc-nb-main-container{font-family:inherit}
+</style>
+<script>
+// Replace the consent banner's generic wording with an accurate description of this site
+(function(){
+  var msg="This site uses Google Analytics (via Google Tag Manager) to count visits and see which pages are read. It shows no ads and does not track you across other sites. Analytics cookies are set only if you click \u201cI agree\u201d. You can change your choice at any time with \u201cCookie Preferences\u201d at the bottom of every page.";
+  function fix(){
+    var box=document.getElementById("termsfeed-com---nb"); if(!box) return false;
+    var t=box.querySelector(".cc-nb-title"); if(t) t.textContent="Cookies and analytics";
+    var w=document.createTreeWalker(box,NodeFilter.SHOW_TEXT,null), n, done=false;
+    while((n=w.nextNode())){ if(n.nodeValue.indexOf("We use cookies and other tracking")>-1){ n.nodeValue=msg+" "; if(!box.querySelector("a.pks-privacy")){ var l=document.createElement("a"); l.className="pks-privacy"; l.href="/privacy/"; l.textContent="Privacy and cookies"; n.parentNode.insertBefore(l,n.nextSibling); } done=true; } }
+    return done;
+  }
+  var obs=new MutationObserver(function(){ if(fix()) obs.disconnect(); });
+  document.addEventListener("DOMContentLoaded",function(){ if(!fix()) obs.observe(document.body,{childList:true,subtree:true}); });
+})();
+</script>
+<!-- Google Tag Manager: blocked until the visitor accepts tracking cookies -->
+<script type="text/plain" cookie-consent="tracking">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WB387NF3');
+</script>
 
 
 <meta property="og:title" content="Decadal Changes in Atmospheric Methane Emissions in the Eastern Himalayan Region: Source Apportionment and Impact Assessment">
@@ -281,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
@@ -306,6 +355,29 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks/index.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv/index.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../../news/index.html">
+ <span class="dropdown-text">News &amp; media</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../expeditions/index.html">
+ <span class="dropdown-text">Expeditions</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -808,14 +880,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Praveen Kumar Singh</p>
+<p>© 2026 Praveen Kumar Singh · <a href="../../privacy/">Privacy</a></p>
 </div>   
     <div class="nav-footer-center">
 <p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="X (Twitter)" aria-label="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
-</div>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
 <div class="office-address">
-<p>École Polytechnique,<br> Route de Saclay 91128, Palaiseau, France<br> praveen.singh@lmd.ipsl.fr</p>
+<p>École Polytechnique,<br> Route de Saclay 91128, Palaiseau, France<br> <a href="mailto:praveenglaciology@gmail.com">praveenglaciology@gmail.com</a></p>
 </div>
 </div>
   </div>
