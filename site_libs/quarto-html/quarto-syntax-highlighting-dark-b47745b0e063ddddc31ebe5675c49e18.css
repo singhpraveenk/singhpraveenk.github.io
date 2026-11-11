@@ -32,7 +32,7 @@
 
 /* other quarto variables */
 :root {
-  --quarto-font-monospace: "Dank Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "tiro devanagari hindi", monospace;
+  --quarto-font-monospace: "Red Hat Mono", "tiro devanagari hindi", monospace;
 }
 
 /* syntax highlight based on Pandoc's rules */
@@ -231,4 +231,4 @@ code span.wa {
   content: "</";
 }
 
-/*# sourceMappingURL=62b067bdfd6ab4e1005ca643c81c6062.css.map */
+/*# sourceMappingURL=89dd6a1e8fab5a8ee5b8d2999dd0d01d.css.map */
