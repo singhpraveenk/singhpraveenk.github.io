@@ -106,6 +106,7 @@ cookieconsent.run({
 <link rel="icon" href="../../favicon.ico" sizes="48x48">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../assets/footer.css">
 <style>
   .termsfeed-com---palette-light .cc-nb-okagree,.termsfeed-com---palette-light .cc-cp-foot-save{background-color:#A8325A!important;color:#fff!important}
   .termsfeed-com---palette-light .cc-nb-reject{background-color:#0B3C49!important;color:#fff!important}
@@ -126,6 +127,7 @@ cookieconsent.run({
   }
   var obs=new MutationObserver(function(){ if(fix()) obs.disconnect(); });
   document.addEventListener("DOMContentLoaded",function(){ if(!fix()) obs.observe(document.body,{childList:true,subtree:true}); });
+  document.addEventListener("DOMContentLoaded",function(){ var c=document.getElementById("open_preferences_center"), s=document.getElementById("pks-cookie-slot"); if(c&&s){ c.textContent="Cookie preferences"; s.appendChild(c); var w=document.querySelector(".cookie-consent-footer"); if(w&&!w.children.length) w.remove(); } });
 })();
 </script>
 <!-- Google Tag Manager: blocked until the visitor accepts tracking cookies -->
@@ -872,16 +874,98 @@ cookieconsent.run({
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Praveen Kumar Singh · <a href="../../privacy/">Privacy</a></p>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-2" href="https://linkedin.com/in/singhpraveenk" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a> <a class="link-dark me-2" href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar-square ai-xl" aria-label="google-scholar-square"></i></a> <a class="link-dark me-2" href="https://orcid.org/0000-0001-7173-5539" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></a> <a class="link-dark me-2" href="https://www.researchgate.net/profile/Praveen-Singh-46" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="ai  ai-researchgate-square ai-xl" aria-label="researchgate-square"></i></a> <a class="link-dark me-2" href="https://x.com/singhpraveenk_" title="X (Twitter)" aria-label="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></p>
+<div class="pks-footer">
+<div class="pks-footer-grid">
+<div class="pks-footer-brand">
+<a class="pks-footer-name" href="../../">Praveen Kumar Singh</a>
+<p class="pks-footer-tag">
+Atmospheric scientist studying black carbon, air quality and climate across the Hindu Kush Himalaya and South Asia.
+</p>
+<ul class="pks-footer-social" aria-label="Social and research profiles">
+<li>
+<a href="https://www.linkedin.com/in/singhpraveenk" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+</li>
+<li>
+<a href="https://scholar.google.com/citations?user=1VBWBrMAAAAJ" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i></a>
+</li>
+<li>
+<a href="https://orcid.org/0000-0001-7173-5539" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="ai  ai-orcid" aria-label="orcid"></i></a>
+</li>
+<li>
+<a href="https://www.researchgate.net/profile/Praveen-Singh-46" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="ai  ai-researchgate" aria-label="researchgate"></i></a>
+</li>
+<li>
+<a href="https://x.com/singhpraveenk_" title="X (Twitter)" aria-label="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+</li>
+<li>
+<a href="mailto:praveenglaciology@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+</li>
+</ul>
+</div>
+<nav class="pks-footer-col" aria-label="Research">
+<h2>
+Research
+</h2>
+<ul>
+<li>
+<a href="../../research/">Research areas</a>
+</li>
+<li>
+<a href="../../publications/">Publications</a>
+</li>
+<li>
+<a href="../../talks/">Talks</a>
+</li>
+<li>
+<a href="../../cv/">CV</a>
+</li>
+</ul>
+</nav>
+<nav class="pks-footer-col" aria-label="About">
+<h2>
+About
+</h2>
+<ul>
+<li>
+<a href="../../about/">About me</a>
+</li>
+<li>
+<a href="../../news/">News &amp; media</a>
+</li>
+<li>
+<a href="../../expeditions/">Expeditions</a>
+</li>
+</ul>
+</nav>
+<div class="pks-footer-col pks-footer-contact">
+<h2>
+Contact
+</h2>
+<address>
+Laboratoire de Météorologie Dynamique (LMD-IPSL)<br>École Polytechnique, Route de Saclay<br>91128 Palaiseau, France
+</address>
+</div>
+</div>
+<div class="pks-footer-bottom">
+<p>
+© 2026 Praveen Kumar Singh
+</p>
+<ul class="pks-footer-legal">
+<li>
+<a href="../../privacy/">Privacy</a>
+</li>
+<li id="pks-cookie-slot">
+</li>
+</ul>
+</div>
+</div>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<div class="office-address">
-<p>École Polytechnique,<br> Route de Saclay 91128, Palaiseau, France<br> <a href="mailto:praveenglaciology@gmail.com">praveenglaciology@gmail.com</a></p>
-</div>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});

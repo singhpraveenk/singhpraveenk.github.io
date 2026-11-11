@@ -19,7 +19,9 @@ The site presents research on black carbon, air quality, climate and the cryosph
 | `expeditions/` | Field expeditions with photo galleries |
 | `cv/` | CV web page and the public PDF (`Praveen_Kumar_Singh_CV.pdf`) |
 | `privacy/`, `license/` | Privacy and cookie notice; licence terms |
+| `404.qmd` | Custom "page not found" page (uses absolute links so it works at any missing address) |
 | `assets/` | Theme SCSS (light and dark), CSS, and self-hosted open-source fonts |
+| `assets/footer.css` | Styles for the multi-column site footer (its HTML is under `page-footer` in `_quarto.yml`) |
 | `includes/person-schema.html` | Schema.org `Person` data (ORCID, Scopus, Web of Science, etc.) for search engines |
 | `_partials/` | Custom title-block template (banner image and link buttons) |
 | `_extensions/` | Quarto extensions (see below) |
@@ -75,7 +77,7 @@ The site uses **only open-source fonts**, self-hosted in `assets/fonts/` and dec
 | Red Hat Mono | Code | SIL Open Font License 1.1 |
 | Tiro Devanagari Hindi | Hindi (Devanagari) text | SIL Open Font License 1.1 |
 
-Icons come from Font Awesome Free and Academicons (SIL OFL 1.1) and Bootstrap Icons (MIT). Font stacks in `assets/praveen-theme-*.scss` end in generic families (`serif`, `sans-serif`, `monospace`) rather than proprietary system fonts. Please keep it that way when adding fonts.
+Icons come from Font Awesome Free and Academicons (SIL OFL 1.1) and Bootstrap Icons (MIT). Font stacks in `assets/theme-*.scss` end in generic families (`serif`, `sans-serif`, `monospace`) rather than proprietary system fonts. Please keep it that way when adding fonts.
 
 ## Analytics and privacy
 
