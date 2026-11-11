@@ -90,8 +90,6 @@ Google Tag Manager (`GTM-WB387NF3`) is loaded **only after a visitor accepts coo
 - **Photographs and personal images:** © Praveen Kumar Singh, all rights reserved.
 - **Papers, slides, figures and other third-party material** keep their original licences, stated on each page.
 
-See [`/license/`](https://singhpraveenk.github.io/license/) for full details.
-
 ## Contact
 
 Praveen Kumar Singh · [praveenglaciology@gmail.com](mailto:praveenglaciology@gmail.com) · [ORCID 0000-0001-7173-5539](https://orcid.org/0000-0001-7173-5539)
