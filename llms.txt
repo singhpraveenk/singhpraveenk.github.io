@@ -1,0 +1,60 @@
+# Praveen Kumar Singh, PhD
+
+> Praveen Kumar Singh, PhD, atmospheric scientist at LMD-IPSL, France, studying black carbon, air quality and climate in the Hindu Kush Himalaya and South Asia.
+
+Personal academic website. Postdoctoral research scientist at the Laboratoire de Météorologie Dynamique (LMD-IPSL), École Polytechnique, Palaiseau, France. Research on black carbon and other light-absorbing aerosols, air quality, chemical transport modelling (CHIMERE, WRF-Chem), climate modelling and snow and glacier hydrology across the Hindu Kush Himalaya and South Asia.
+
+Contact: praveenglaciology@gmail.com (research collaborations, invited talks, media). ORCID: https://orcid.org/0000-0001-7173-5539
+
+## Main pages
+- [Home](https://singhpraveenk.github.io/) - Praveen Kumar Singh, PhD, atmospheric scientist at LMD-IPSL, France, studying black carbon, air quality and climate in the Hindu Kush Himalaya and South Asia.
+- [About](https://singhpraveenk.github.io/about/) - Electronics engineer turned atmospheric scientist: PhD IIT Roorkee, ICIMOD, WRI India, 2019 National Geographic Everest Expedition, now at LMD-IPSL, France.
+- [CV](https://singhpraveenk.github.io/cv/) - CV of Praveen Kumar Singh, PhD, atmospheric scientist at LMD-IPSL: black carbon, air quality, climate and the cryosphere of the Hindu Kush Himalaya.
+
+## Research areas
+- [Research](https://singhpraveenk.github.io/research/) - Connecting disciplines, advancing discovery: My research links aerosols, air quality, climate and the cryosphere. Broadly, my work spans these areas:
+- [Aerosol Properties, Aerosol-Cryosphere & Aerosol-Cloud-Radiation Interaction](https://singhpraveenk.github.io/research/aerosols/) - Black carbon and other light-absorbing aerosols: their sources, how they spread across the Hindu Kush Himalaya, and how they warm the air and darken snow.
+- [Regional & Urban Air Quality](https://singhpraveenk.github.io/research/air_quality/) - How emissions, weather and long-range transport shape air quality across South Asia and the Himalaya, from satellite views to city clean-air action.
+- [Atmospheric Chemistry & Chemical Transport Modeling](https://singhpraveenk.github.io/research/chemical_transport_modeling/) - Using chemistry-transport models such as CHIMERE and WRF-Chem to trace pollutants to the Himalaya and test emission inventories for South Asia.
+- [Global & Regional Climate Modeling](https://singhpraveenk.github.io/research/climate_modeling/) - Regional and global climate models (RegCM, GISS ModelE, CMIP5/CMIP6, WRF) to understand Himalayan climate change, aerosol radiative effects and extreme events.
+- [Science–Policy Interface](https://singhpraveenk.github.io/research/science_policy_interface/) - Bridging atmospheric science and policy: clean-air planning with city governments, environmental law, and communicating climate science to the public.
+- [Climate Change, Snow Hydrology, Snowmelt Modeling & Regional Water Balance](https://singhpraveenk.github.io/research/water/) - How climate change and pollution affect Himalayan snow, glaciers and river flow, from Everest’s highest glacier to future discharge of the upper Ganga basin.
+- [Black Carbon in the HKH region](https://singhpraveenk.github.io/research/aerosols/black_carbon_hkh/) - Black carbon in the Hindu Kush Himalaya: its sources, transport, seasonal variability and its role in darkening snow and accelerating glacier melt.
+
+## Publications
+- [Publications](https://singhpraveenk.github.io/publications/) - Explore my research: A collection of publications, each connected to its preprints, posters, and related news and media.
+- [Aerosol composition, transport, and radiative impact derived from ground-based and satellite remote sensing in the Central Himalaya](https://singhpraveenk.github.io/publications/2025_10_science_total_environment/) (Science of the Total Environment, 2025) - Contributions of black carbon, organic carbon and dust to aerosol absorption and radiative forcing across the Central Himalaya from AERONET and satellites.
+- [Climate change impact assessment on the river discharge of the upper Ganga Subbasin](https://singhpraveenk.github.io/publications/2025_06_physics_chemistry_earth/) (Physics and Chemistry of the Earth, Parts A/B/C, 2025) - SPHY hydrological modelling with CMIP6 SSP2-4.5 and SSP5-8.5 projections of future river discharge and water balance in the upper Ganga basin.
+- [Simulation of Meteorological Conditions Using a High-resolution Model Case Study: Chamoli Rock-Ice Avalanche Event (Uttarakhand, India)](https://singhpraveenk.github.io/publications/2024_03_emerging_issues_environment_geography_earth_science_vol/) - High-resolution WRF modelling of the weather around the February 2021 Chamoli rock-ice avalanche in the Uttarakhand Himalaya, India.
+- [Insights from the first winter weather observations near Mount Everest’s summit](https://singhpraveenk.github.io/publications/2023_03_weather/) (Weather, 2023) - First winter weather observations near Mount Everest’s summit (2019-2021): extreme wind chill, rapid frostbite risk and high sublimation rates.
+- [Variability of ambient black carbon concentration in the Central Himalaya and its assessment over the Hindu Kush Himalayan region](https://singhpraveenk.github.io/publications/2023_02_science_total_environment/) (Science of the Total Environment, 2023) - Black carbon at nine sites in Nepal, Bhutan and Tibet (2015-2018): seasonal variability, sources and transport across the Hindu Kush Himalaya.
+- [Decadal Changes in Atmospheric Methane Emissions in the Eastern Himalayan Region: Source Apportionment and Impact Assessment](https://singhpraveenk.github.io/publications/2023_02_international_journal_environmental_research/) (International Journal of Environmental Research, 2023) - Trends and sources of methane emissions in the Eastern Himalayan region (1990-2016) from CAMS, EDGAR and RCP data, and the role of land-use change.
+- [Learnings from COVID-19 Forced Lockdown on Regional Air Quality and Mitigation Potential for South Asia](https://singhpraveenk.github.io/publications/2022_03_aerosol_air_quality_research/) (Aerosol and Air Quality Research, 2022) - Satellite and in-situ data on how the 2020 COVID-19 lockdown changed air quality across South Asia, and what it reveals about mitigation potential.
+- [Mt. Everest’s highest glacier is a sentinel for accelerating ice loss](https://singhpraveenk.github.io/publications/2022_02_npj_climate_atmospheric_science/) (npj Climate and Atmospheric Science, 2022) - The world’s highest ice core and weather stations show melting and sublimation driving rapid ice loss on Everest’s South Col Glacier (8020 m).
+- [7 February Chamoli (Uttarakhand, India) Rock-Ice Avalanche Disaster: Model-Simulated Prevailing Meteorological Conditions](https://singhpraveenk.github.io/publications/2022_02_atmosphere/) (Atmosphere, 2022) - WRF simulations of meteorological conditions before and after the 7 February 2021 Chamoli rock-ice avalanche in Uttarakhand, India.
+- [Black carbon concentration in the central Himalayas: Impact on glacier melt and potential source contribution](https://singhpraveenk.github.io/publications/2021_04_environmental_pollution/) (Environmental Pollution, 2021) - Year-long black carbon observations near Yala Glacier, Nepal, with model-based source attribution and BC impacts on snow albedo and glacier melt.
+- [A case study using 2019 pre-monsoon snow and stream chemistry in the Khumbu region, Nepal](https://singhpraveenk.github.io/publications/2021_01_science_total_environment/) (Science of the Total Environment, 2021) - Snow, stream water and ice-core chemistry from Mt. Everest and the Khumbu region, Nepal, revealing dust deposition and human pollution signals.
+- [Methane Emission and Its Variability in Different Land-uses of Semi-arid Region, Rajasthan](https://singhpraveenk.github.io/publications/2018_08_journal_climate_change/) (Journal of Climate Change, 2018) - Static-chamber measurements of methane fluxes from a saline wetland, urban lake, reservoir and landfill in semi-arid Rajasthan, India.
+
+## Talks
+- [Talks](https://singhpraveenk.github.io/talks/) - Sharing Ideas, Shaping Conversations: Invited talks, expert lectures and conference presentations on black carbon, climate and the Himalaya.
+- [Tracing black carbon’s footprint on the Hindu Kush Himalaya: an assessment of emissions, deposition and albedo trends using multimodal, gridded, and satellite datasets](https://singhpraveenk.github.io/talks/2025_kathmandu/) - Two decades of black carbon emissions, deposition and snow albedo trends across the Hindu Kush Himalaya from satellite, reanalysis and model data.
+- [The Science of Climate Change and Global Warming](https://singhpraveenk.github.io/talks/2025_hydrabad/) - Guest lecture on the science of climate change: the greenhouse effect, evidence of warming, natural and human causes, impacts and projections.
+- [Sand and dust storms in Central Asia and their impact on the glaciers: mechanisms and future prospects](https://singhpraveenk.github.io/talks/2024_dushanbe/) - Keynote on how Central Asian dust storms affect High Mountain Asia’s glaciers: dust sources, radiative effects, dust on snow, and regional cooperation.
+
+## News and media
+- [News](https://singhpraveenk.github.io/news/) - Research in the Spotlight: A selection of news coverage and media features highlighting my research.
+- [रिवर्स गियर में हवा, Ice Age जैसा खतरा… भारत से लेकर यूरोप तक मौसम के सितम के पीछे का साइंस](https://singhpraveenk.github.io/news/2025-11-aaj-tak-qbo-collapse-extreme-weather-india-europe/) - Aaj Tak on the unusually early reversal of the stratospheric Quasi-Biennial Oscillation in November 2025 and its links to extreme weather worldwide.
+- [बर्फ पिघलेगी… बारिश बढ़ेगी…गंगा का पानी का फ्लो 50% बढे़गा… अधिक आपदाएं आएंगी, IIT रुड़की के वैज्ञानिकों की स्टडी](https://singhpraveenk.github.io/news/2025-05-aaj-tak-iit-roorkee-upper-ganga-flow-study/) - Aaj Tak on an IIT Roorkee modelling study projecting Upper Ganga streamflow could rise about 50% by 2100 under high emissions as snowmelt declines.
+- [Mt. Everest Ice Loss: दुनिया के सबसे ऊंचे पहाड़ से 32 साल में इतना ग्लेशियर पिघला जितना 2000 साल में बनता](https://singhpraveenk.github.io/news/2022-02-aaj-tak-everest-south-col-glacier-ice-loss/) - Aaj Tak photo feature on the 2019 Everest expedition study showing the South Col Glacier has lost about 2,000 years of accumulated ice since 1990.
+- [Chamoli Disaster: क्या मौसम की वजह से हो सकता है चमोली जैसा हादसा? IIT’s की स्टडी](https://singhpraveenk.github.io/news/2022-02-aaj-tak-chamoli-disaster-weather-iit-study/) - Aaj Tak photo feature on an IIT Roorkee-IIT Delhi study linking a sharp temperature drop and rainfall to the February 2021 Chamoli rock-ice avalanche.
+- [Fire and Ice: Soot Darkens Himalayan Glaciers](https://singhpraveenk.github.io/news/2020-03-fire-and-ice-soot-himalayan-glaciers/) - Dialogue Earth on how forest and crop fires in the Himalayan foothills deposit black carbon on glaciers, darkening the ice and speeding up melt.
+
+## Expeditions
+- [Expeditions](https://singhpraveenk.github.io/expeditions/) - From the field to discovery: Explore the fieldwork campaigns that have shaped my research and contributed to a deeper understanding of the environments I study.
+- [2019 National Geographic and Rolex Perpetual Planet Everest Expedition](https://singhpraveenk.github.io/expeditions/2019_everest/) - Science team member on the 2019 National Geographic and Rolex Perpetual Planet Everest Expedition: snow sampling and spectroradiometry at Base Camp.
+- [Satopanth Glacier field visit, Garhwal Himalaya](https://singhpraveenk.github.io/expeditions/2017_satopanth/) - A field visit from IIT Roorkee to Satopanth Glacier (about 4,700 m) in Uttarakhand to collect snow and water samples and carry out a DGPS survey of the glacier.
+
+## Optional
+- [Privacy and cookies](https://singhpraveenk.github.io/privacy/)
+- [Sitemap](https://singhpraveenk.github.io/sitemap.xml)
