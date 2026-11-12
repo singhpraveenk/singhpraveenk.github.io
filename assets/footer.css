@@ -34,7 +34,7 @@ footer.footer .pks-footer-name:hover{ text-decoration:none!important; color:var(
 .pks-footer-social a{ display:inline-flex; align-items:center; justify-content:center; line-height:1;
   color:var(--pks-ft-accent)!important; transition:opacity .15s ease, transform .15s ease; }
 footer.footer .pks-footer-social a:hover, footer.footer .pks-footer-social a:focus-visible{ color:var(--pks-ft-accent)!important; opacity:.75; transform:translateY(-1px); text-decoration:none; }
-.pks-footer-social .ai, .pks-footer-social .fa-brands, .pks-footer-social .fa-solid, .pks-footer-social .bi{ font-size:1.75rem; line-height:1; }
+.pks-footer-social .ai, .pks-footer-social .fa-brands, .pks-footer-social .fa-solid, .pks-footer-social .bi{ font-size:1.2rem; line-height:1; }
 
 .pks-footer-col h2{ font-family:"Red Hat Text","tiro devanagari hindi",sans-serif; font-size:.78rem; font-weight:600; letter-spacing:.14em;
   text-transform:uppercase; color:var(--pks-ft-head); margin:.35rem 0 1rem; border:0; padding:0; }
